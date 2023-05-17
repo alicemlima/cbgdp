@@ -20,7 +20,7 @@ export default function Local() {
                         
                         <div>
                             <p  className="text-justify mb-10 md:text-xl">O Instituto Metrópole Digital (IMD) é uma Unidade Acadêmica Especializada da Universidade Federal do Rio Grande do Norte (UFRN), com um perfil diferenciado da maioria dos centros acadêmicos e departamentos das universidades federais brasileiras.</p>
-                            <Carousel children={carouselItems}></Carousel>
+                            <Carousel >{carouselItems}</Carousel>
                         </div> 
 
                         <div className='h-full w-full my-10 lg:mt-0' >  
