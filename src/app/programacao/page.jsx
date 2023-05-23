@@ -8,7 +8,7 @@ export default function Programacao() {
     return (
       <main className="h-screen">
             <TitlePage>Programação</TitlePage>
-            <div className="w-full space-y-10 text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-54 pb-10 flex flex-col flex-wrap content-start">
+            <div className="w-full space-y-10 text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-col flex-wrap content-start">
                     <div className='w-full flex md:flex-row flex-col-reverse space-x-5 justify-between'>
                         <div>
                             <Subtitle>Temas a Serem Abordados</Subtitle>

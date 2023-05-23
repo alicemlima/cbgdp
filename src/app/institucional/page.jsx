@@ -5,7 +5,7 @@ export default function institucional() {
     return (
         <main className="h-screen">
             <TitlePage>Institucional</TitlePage>
-        <div id="institucional" className="text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-54 my-20 flex items-center flex-wrap">
+        <div id="institucional" className="text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 my-20 flex items-center flex-wrap">
             
             <div >
                 <div className="grid md:grid-cols-2 md:gap-5">

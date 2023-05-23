@@ -13,14 +13,14 @@ export default function Local() {
     return (
       <main className="h-screen">
             <TitlePage>Local</TitlePage>
-            <div className="w-full text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-54 pb-10 flex flex-wrap content-start">
+            <div className="w-full h-auto text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-wrap content-start">
                 <div>
                     <Subtitle>Instituto Metrópole Digital</Subtitle>
-                    <div className=" min-h-[30vh] lg:grid lg:grid-cols-2 lg:gap-20 ">
+                    <div className="lg:grid lg:grid-cols-2 lg:gap-20 ">
                         
                         <div>
                             <p  className="text-justify mb-10 md:text-xl">O Instituto Metrópole Digital (IMD) é uma Unidade Acadêmica Especializada da Universidade Federal do Rio Grande do Norte (UFRN), com um perfil diferenciado da maioria dos centros acadêmicos e departamentos das universidades federais brasileiras.</p>
-                            <Carousel >{carouselItems}</Carousel>
+                            <img src={"/imd.jpg"} className='min-h-[70%] '/>
                         </div> 
 
                         <div className='h-full w-full my-10 lg:mt-0' >  
@@ -37,9 +37,10 @@ export default function Local() {
                         
                        
                     </div>
+                    <div className='md:mt-20'>
                     <Subtitle >Hospedagem e Turismo</Subtitle>
                     <div className="bg-pallete-orange text-pallete-white rounded-lg max-w-sm mt-5 text-center md:text-2xl text-xl font-black">Mais informações em breve</div>
-
+                </div>
                 </div>
             </div>
       </main>
