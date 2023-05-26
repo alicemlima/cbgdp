@@ -25,6 +25,8 @@ export default function institucional() {
                             <img className="max-w-[90%]" src={"/fiern-logo.png"} alt="" /></a>
                             <a href="https://www.igdp.org.br/">
                             <img src={"/imd-logo.svg"} alt="" /></a>
+                            <a href="https://www.igdp.org.br/">
+                            <img src={"/senai-logo.png"} alt="" /></a>
                         </div>
                     </div>
                 </div>

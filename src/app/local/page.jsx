@@ -39,7 +39,6 @@ export default function Local() {
                     </div>
                     <div className='md:mt-20'>
                     <Subtitle >Hospedagem e Turismo</Subtitle>
-                    <div className="bg-pallete-orange text-pallete-white rounded-lg max-w-sm mt-5 text-center md:text-2xl text-xl font-black">Mais informações em breve</div>
                 </div>
                 </div>
             </div>
