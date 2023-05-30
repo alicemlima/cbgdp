@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from "@/src/components/Carousel"
 import Subtitle from "@/src/components/Subtitle"
 import TitlePage from "@/src/components/TitlePage"
+import BodyText from '@/src/components/BodyText';
 
 export default function Local() {
 
@@ -39,6 +40,14 @@ export default function Local() {
                     </div>
                     <div className='md:mt-20'>
                     <Subtitle >Hospedagem e Turismo</Subtitle>
+                    <BodyText>Orientações para que você aproveite ao máximo o 14º Congresso Brasileiro de Inovação e Gestão de Desenvolvimento de Produto</BodyText>
+                    <BodyText>A cidade de Natal, capital do estado Rio Grande do Norte, é conhecida por suas belas praias e clima tropical. Com cerca de 900 mil habitantes, possui um parque industrial diversificado, com setores de petróleo, energia renovável, turismo e tecnologia. Sua economia também é impulsionada pela pesca e agricultura, 
+                        destacando-se na produção de frutas tropicais e camarão.</BodyText>
+
+                    <div>
+                        <BodyText>Aproveite o congresso e descubra os encantos de Natal. Com praias paradisíacas como Ponta Negra e Genipabu, é o destino perfeito para os amantes do sol e do mar. Explore as dunas de areia de buggy, faça um emocionante passeio de jangada pelos parrachos de Maracajaú e aproveite a vida noturna em Pipa. Natal é um convite irresistível ao relaxamento e à aventura.</BodyText>
+                    
+                    </div>
                 </div>
                 </div>
             </div>

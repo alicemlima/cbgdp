@@ -10,9 +10,8 @@ export default function Sobre() {
                 <span className=" text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-2xl lg:text-3xl">Bem-vindos ao 14º Congresso de Inovação de Gestão do Desenvolvimento de Produto!</span> 
                 <BodyText>Este evento único reunirá especialistas e profissionais de diversas áreas para explorar as mais recentes tendências e estratégias relacionadas à gestão da inovação e de produtos 
                 inovadores. Com uma programação diversificada, o congresso oferecerá uma experiência enriquecedora e inspiradora para todos os participantes. </BodyText>
-                <div className=" text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-2xl lg:text-3xl mt-5"> Ele será dividido em quatro componentes principais: 
-                Palestras, Mesas Redondas, Minicursos e Visitas Técnicas. </div>
-                <BodyText>O CBGFP Acontece a cada dois desde 1999 com o objetivo de incentivar o compartilhamento de conhecimentos e experiências das pesquisas sobre o desenvolvimento de produtos 
+        
+                <BodyText>O CBGDP acontece a cada dois desde 1999 com o objetivo de incentivar o compartilhamento de conhecimentos e experiências sobre o desenvolvimento de produtos 
                 realizadas por grupos de pesquisa brasileiros. Ele acontece nos anos ímpares, sendo sediado pelos mais renomados centros de pesquisa em desenvolvimento de produtos do Brasil. Este ano 
                 ocorrerá na cidade de Natal no Rio Grande do Norte.</BodyText>
                 </div>
@@ -23,4 +22,3 @@ export default function Sobre() {
 
         </section>
         )}
-        
