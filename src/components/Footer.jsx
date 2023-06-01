@@ -2,7 +2,7 @@ import { AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <div className=" relative bottom-0 left-0 right-0 bg-pallete-gray border-t-2 border-t-pallete-blue text-pallete-blue space-y-5 py-10 px-4 md:px-16 xl:px-28 2xl:px-54 flex items-center justify-evenly">
+    <div className=" relative bottom-0 bg-pallete-gray border-t-2 border-t-pallete-blue text-pallete-blue space-y-5 py-10 px-4 md:px-16 xl:px-28 2xl:px-54 flex flex-col md:flex-row items-center md:space-x-3 justify-evenly">
      <div className=" space-y-5">
         <h1 className="border-b-4 border-b-pallete-blue pb-2 text-3xl md:text-4xl font-semibold mt-5">
           Fale Conosco
