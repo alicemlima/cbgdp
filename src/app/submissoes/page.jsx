@@ -28,7 +28,7 @@ export default function submissoes() {
                     <div className="grid gap-5 xl:mt-10 xl:gap-8">
                        
                         {accordionItems.map((item, idx) => (
-                            <Accordion title={item.title} text={item.text} />
+                            <Accordion key={idx} title={item.title} text={item.text} />
                         ))}
                     </div>
                     <BodyText>Todos os artigos e trabalhos técnicos submetidos serão avaliados pelo comitê científico do 14º CBGDP. Os trabalhos aceitos serão apresentados nas sessões temáticas, que representam 
