@@ -11,9 +11,9 @@ export default function Sobre() {
                 <BodyText>Este evento único reunirá especialistas e profissionais de diversas áreas para explorar as mais recentes tendências e estratégias relacionadas à gestão da inovação e de produtos 
                 inovadores. Com uma programação diversificada, o congresso oferecerá uma experiência enriquecedora e inspiradora para todos os participantes. </BodyText>
         
-                <BodyText>O CBGDP acontece a cada dois desde 1999 com o objetivo de incentivar o compartilhamento de conhecimentos e experiências sobre o desenvolvimento de produtos 
-                realizadas por grupos de pesquisa brasileiros. Ele acontece nos anos ímpares, sendo sediado pelos mais renomados centros de pesquisa em desenvolvimento de produtos do Brasil. Este ano 
-                ocorrerá na cidade de Natal no Rio Grande do Norte.</BodyText>
+                <BodyText>O Congresso Brasileiro de Desenvolvimento de Produtos (CBGDP) é um evento bienal que ocorre desde 1999, com o objetivo de estimular o 
+                    compartilhamento de conhecimentos e experiências relacionados ao desenvolvimento de produtos por empresas, seus profissionais e grupos de pesquisa 
+                    brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos mais renomados centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>
                 </div>
                 <div className="absolut bg-pallete-orange rounded-tl-[70%] h-[100%] 2xl:h-[70%] w-fit">
                         <img className="relative rounded-tl-[70%] h-[100%] left-4 top-4" src={"/people.jpg"} alt={""} />

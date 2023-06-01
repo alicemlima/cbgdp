@@ -1,13 +1,33 @@
 import TitlePage from "@/src/components/TitlePage";
 import Subtitle from "@/src/components/Subtitle"
+import BodyText from "@/src/components/BodyText";
 
 export default function institucional() {
     return (
-        <main className="h-screen">
+        <main className="mx-auto">
             <TitlePage>Institucional</TitlePage>
         <div id="institucional" className="text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 my-20 flex items-center flex-wrap">
-            
+        
             <div >
+                <Subtitle>Sobre o evento</Subtitle>
+                <div>
+                    <BodyText>O Congresso Brasileiro de Desenvolvimento de Produtos (CBGDP) é um evento bienal que ocorre desde 1999, com o objetivo 
+                        de estimular o compartilhamento de conhecimentos e experiências relacionados ao desenvolvimento de produtos por empresas, seus 
+                        profissionais e grupos de pesquisa brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos mais renomados 
+                        centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>
+                    <BodyText>Neste ano, o CBGDP será sediado na cidade de Natal, localizada no estado do Rio Grande do Norte. Natal foi escolhida como 
+                        sede do evento devido à sua crescente relevância no cenário de pesquisa e desenvolvimento de inovações no país, especialmente na 
+                        área sustentável. A cidade possui instituições de ensino e pesquisa de destaque, além de contar com uma infraestrutura adequada 
+                        para receber os participantes do congresso.</BodyText>
+                    <BodyText>Durante o CBGDP serão promovidas palestras, minicursos e apresentações de trabalhos técnicos e científicos, abordando diversas
+                         áreas do desenvolvimento de produtos. Os participantes terão a oportunidade de trocar experiências, discutir tendências e ampliar 
+                         seus conhecimentos nesse campo.</BodyText>
+                    <BodyText>Com o passar dos anos, o CBGDP tem se consolidado como um importante fórum para a disseminação de boas práticas e avanços científicos 
+                        relacionados ao desenvolvimento de produtos no Brasil. Além disso, o evento contribui para fortalecer o networking entre empresas e consultorias, 
+                        bem como aprofundar a colaboração entre grupos de pesquisa sobre inovação tecnológica no país.</BodyText>
+
+                </div>
+
                 <div className="grid md:grid-cols-2 md:gap-5">
                     <div>
                         <Subtitle>Organização</Subtitle>
@@ -24,7 +44,7 @@ export default function institucional() {
                             <a href="https://ufrn.br/">
                             <img className="max-w-[90%]" src={"/fiern-logo.png"} alt="" /></a>
                             <a href="https://www.igdp.org.br/">
-                            <img src={"/imd-logo.svg"} alt="" /></a>
+                            <img src={"/imd-logo.png"} alt="" /></a>
                             <a href="https://www.igdp.org.br/">
                             <img src={"/senai-logo.png"} alt="" /></a>
                         </div>

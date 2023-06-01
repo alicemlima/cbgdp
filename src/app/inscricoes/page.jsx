@@ -7,12 +7,12 @@ import BodyText from '@/src/components/BodyText';
 export default function inscricoes() {
     
     return (
-        <main className="h-screen">
+        <main className="mx-auto">
             <TitlePage>Inscrições</TitlePage>
-            <div className="w-full space-y-10 text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-col flex-wrap content-start">
+            <div className="w-full space-y-10 text-pallete-medium-dark text-lg md:text-xl px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-col flex-wrap content-start">
                 <BodyText>A seguir temos a tabela de valores das inscrições para o CBGDP 2023. Os preços variam de acordo com o tipo de participante: aluno de 
                     graduação, pós-graduando, profissional/professor, com descontos especiais para inscrições antecipadas. </BodyText>
-                <table class="table-auto text-center border-separate border-spacing-2">
+                <table class="table-auto text-center border-separate border-spacing-2  ">
                     <thead>
                         <tr className='text-pallete-blue font-bold'>
                             <th>Tipo de inscrição (individual e sem direito à publicação)</th>
@@ -92,6 +92,10 @@ export default function inscricoes() {
                     </tbody>
                 </table>
                 <BodyText>As inscrições estão sujeitas à disponibilidade de vagas e acontecerão por ordem de realização.</BodyText>
+                <div className='flex justify-center '>                
+                    <div className="bg-pallete-blue text-pallete-white rounded-lg max-w-sm p-3 shadow-lg text-center md:text-2xl text-xl font-black">Inscrições começam em 12/06</div>
+                </div>
+
             </div>
         </main>
         )

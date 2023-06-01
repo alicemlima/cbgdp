@@ -11,7 +11,7 @@ export default function Banner() {
                         </p>
                     </div>
                     <div className="text-pallete-white text-lg md:text-3xl my-10 xl:justify-self-end 2xl:justify-self-center" >
-                        <h4 className="font-bold">22 a 23 de novembro de 2023</h4>
+                        <h4 className="font-bold">22 a 25 de novembro de 2023</h4>
                         <h4 className="font-thin">Natal, Rio Grande do Norte</h4>
                         <div className="bg-pallete-orange text-pallete-white rounded-lg max-w-sm mt-5 text-center md:text-2xl text-xl font-black">Mais informações em breve</div>
                     </div>

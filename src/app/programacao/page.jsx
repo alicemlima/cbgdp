@@ -8,7 +8,7 @@ import BodyEmphasys from '@/src/components/BodyEmphasys';
 
 export default function Programacao() {
     return (
-      <main className="h-screen">
+      <main className="mx-auto">
             <TitlePage>Programação</TitlePage>
             <div className="w-full space-y-10 text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-col flex-wrap content-start">
                     <div className='w-full md:grid md:grid-cols-3 justify-between'>
@@ -21,7 +21,7 @@ export default function Programacao() {
                         <div className='my-10 w-full'>
                             <a href="" className="text-pallete-white w-fit flex justify-self-center space-x-4 justify-between align-middle shadow-lg bg-pallete-blue p-5 rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 md:ml-5">
                                 <div><BsFillCalendarCheckFill size={35} /></div>
-                                <h1 className=" text-2xl lg:text-4xl font-semibold capitalize">22 a 23 de novembro de 2023</h1>                            
+                                <h1 className=" text-2xl lg:text-4xl font-semibold capitalize">22 a 25 de novembro de 2023</h1>                            
                             </a>
                         </div>
                     </div>
