@@ -69,12 +69,11 @@ export default function NavBar() {
                                         key={idx}
                                         href={item.page}
                                         className={
-                                            "block lg:inline-block hover:bg-pallete-orange hover:text-pallete-white p-2 rounded-lg cursor-pointer text-xl"
+                                            "block lg:inline-block hover:bg-pallete-orange hover:text-pallete-white p-2 rounded-lg cursor-pointer text-lg"
                                         }
                                          onClick={() => setNavbar(!navbar)}
                                     >
-                                        <span className="text-light-pink" ></span> 
-                                        {" " + item.label}
+                                        {item.label}
                                     </Link>
                                 )
                             })}

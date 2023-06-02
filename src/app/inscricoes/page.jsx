@@ -93,7 +93,7 @@ export default function inscricoes() {
                 </table>
                 <BodyText>As inscrições estão sujeitas à disponibilidade de vagas e acontecerão por ordem de realização.</BodyText>
                 <div className='flex justify-center '>                
-                    <div className="bg-pallete-blue text-pallete-white rounded-lg max-w-sm p-3 shadow-lg text-center md:text-2xl text-xl font-black">Inscrições começam em 12/06</div>
+                    <div className="bg-pallete-blue text-pallete-white rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black">Inscrições começam em 12/06</div>
                 </div>
 
             </div>

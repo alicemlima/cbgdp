@@ -13,7 +13,7 @@ export default function Programacao() {
             <div className="w-full space-y-10 text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-col flex-wrap content-start">
                     <div className='w-full md:grid md:grid-cols-3 justify-between'>
                         <div className=' md:col-span-2'> 
-                        <BodyText>O 14º Congresso de Inovação de Gestão do Desenvolvimento de Produto promete ser um evento transformador, repleto de conhecimentos atualizados e práticas inspiradoras. A programação completa do evento com seus 
+                        <BodyText>O 14º Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto promete ser um evento transformador, repleto de conhecimentos atualizados e práticas inspiradoras. A programação completa do evento com seus 
                         palestrantes, mesas redondas, minicursos e visitas técnicas serão disponibilizadas em breve. As sessões temáticas serão disponibilizadas até 1 mês antes do início do congresso.</BodyText>
                         <BodyEmphasys>Prepare-se para expandir sua rede de contatos, adquirir novas perspectivas e impulsionar sua carreira na área de gestão de produtos.
                          Esperamos vê-lo em breve neste evento estimulante e enriquecedor!</BodyEmphasys>
@@ -21,7 +21,7 @@ export default function Programacao() {
                         <div className='my-10 w-full'>
                             <a href="" className="text-pallete-white w-fit flex justify-self-center space-x-4 justify-between align-middle shadow-lg bg-pallete-blue p-5 rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 md:ml-5">
                                 <div><BsFillCalendarCheckFill size={35} /></div>
-                                <h1 className=" text-2xl lg:text-4xl font-semibold capitalize">22 a 25 de novembro de 2023</h1>                            
+                                <h1 className=" text-xl lg:text-2xl font-semibold capitalize">22 a 25 de novembro de 2023</h1>                            
                             </a>
                         </div>
                     </div>

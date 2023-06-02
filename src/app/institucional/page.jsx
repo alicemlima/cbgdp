@@ -6,12 +6,12 @@ export default function institucional() {
     return (
         <main className="mx-auto">
             <TitlePage>Institucional</TitlePage>
-        <div id="institucional" className="text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 my-20 flex items-center flex-wrap">
+        <div id="institucional" className="text-pallete-medium-dark px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex items-center flex-wrap">
         
             <div >
                 <Subtitle>Sobre o evento</Subtitle>
                 <div>
-                    <BodyText>O Congresso Brasileiro de Desenvolvimento de Produtos (CBGDP) é um evento bienal que ocorre desde 1999, com o objetivo 
+                    <BodyText>O Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto(CBGDP) é um evento bienal que ocorre desde 1999, com o objetivo 
                         de estimular o compartilhamento de conhecimentos e experiências relacionados ao desenvolvimento de produtos por empresas, seus 
                         profissionais e grupos de pesquisa brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos mais renomados 
                         centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>
@@ -52,26 +52,26 @@ export default function institucional() {
                 </div>
                 
                 <Subtitle>Comitê</Subtitle>
-                <div className="text-base md:text-xl grid grid-cols-2 gap-5 ">
+                <div className="text-base md:text-lg grid grid-cols-2 gap-5 ">
                     <div >
-                        <h2 className="text-xl md:text-2xl ">Coordenação Geral</h2>
+                        <h2 className="text-lg md:text-xl ">Coordenação Geral</h2>
                         <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
                         <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>
                     </div>
                     <div>
-                        <h2 className="text-xl md:text-2xl">Comitê científico</h2>
+                        <h2 className="text-lg md:text-xl">Comitê científico</h2>
                         <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>
                         <li>Prof. Dr. Raoni Barros Bagno (UFMG)</li>
                         <li>Prof. Dr. Daniel Capaldo Amaral</li>
                     </div>
                     <div>
-                        <h2 className="text-xl md:text-2xl ">Comitê de programação</h2>
+                        <h2 className="text-lg md:text-xl ">Comitê de programação</h2>
                         <li>Prof. Dr. Daniel Jugend</li>
                         <li>Prof. Dr. Guilherme Brittes Benitez (PUCPR)</li>
                         <li>Prof. Dr. Daniel Capaldo Amaral</li>
                     </div>
                     <div>
-                        <h2 className="text-xl md:text-2xl ">Comitê administrativo</h2>
+                        <h2 className="text-xlgl md:text-xl ">Comitê administrativo</h2>
                         <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
 
                     </div>

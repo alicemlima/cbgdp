@@ -4,6 +4,7 @@ import TitlePage from "@/src/components/TitlePage"
 import { AiOutlineDown } from 'react-icons/ai';
 import BodyText from "@/src/components/BodyText"
 import Accordion from "@/src/components/Accordion"
+import BodyEmphasys from '@/src/components/BodyEmphasys';
 
 export default function submissoes() {
     const accordionItems = [
@@ -24,7 +25,7 @@ export default function submissoes() {
                         para apresentar suas pesquisas e insights sobre estratégias inovadoras, processos de desenvolvimento de produtos, adoção de tecnologias emergentes, tendências de mercado e muito 
                         mais. Aproveite essa oportunidade para contribuir com o avanço do conhecimento e fazer parte de uma comunidade dedicada à inovação e gestão de produtos. Junte-se a nós nessa jornada de 
                         descobertas e impacto positivo no mundo empresarial.</BodyText>
-                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-2xl lg:text-3xl my-5'>A seguir são enumerados os grandes temas do CBGDP 2023 para submissão dos trabalhos:</div>
+                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-xl my-5'>A seguir são enumerados os grandes temas do CBGDP 2023 para submissão dos trabalhos:</div>
                     <div className="grid gap-5 xl:mt-10 xl:gap-8">
                        
                         {accordionItems.map((item, idx) => (
@@ -45,16 +46,16 @@ export default function submissoes() {
 
                 <div>
                     <Subtitle>Premiações</Subtitle>
-                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-2xl lg:text-3xl my-5'>Os melhores artigos avaliados de cada tema serão convidados para um fast track pela revista Product Management and Development.</div>
+                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-xl my-5'>Os melhores artigos avaliados de cada tema serão convidados para um fast track pela revista Product Management and Development.</div>
                     <BodyText>É importante destacar que a escolha pelo fast-track não garante a aceitação automática dos artigos pela revista, uma vez que o processo de avaliação permanece independente. No entanto, essa opção oferece uma análise mais 
                         rápida por parte da revista mencionada, agilizando o processo de avaliação dos trabalhos.</BodyText>
                 </div>
                 
                 <div>
                     <Subtitle>Datas importantes</Subtitle>
-                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-2xl lg:text-3xl my-5'>05/06/23 – Início da submissão dos artigos / trabalhos técnicos</div>
-                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-2xl lg:text-3xl my-5'>07/08/23 – Prazo final para submissão</div>
-                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-2xl lg:text-3xl my-5'>13/10/23 – Data limite para a resposta de aceitação do trabalho</div>
+                    <BodyEmphasys>05/06/23 – Início da submissão dos artigos / trabalhos técnicos</BodyEmphasys> 
+                    <BodyEmphasys>07/08/23 – Prazo final para submissão</BodyEmphasys> 
+                    <BodyEmphasys>13/10/23 – Data limite para a resposta de aceitação do trabalho</BodyEmphasys> 
 
 
                 </div>

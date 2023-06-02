@@ -42,7 +42,7 @@ export default function Local() {
                     </div>
                     <div className='md:mt-20'>
                     <Subtitle >Hospedagem e Turismo</Subtitle>
-                    <BodyText><BodyEmphasys>Informações Gerais: </BodyEmphasys>Orientações para que você aproveite ao máximo o 14º Congresso Brasileiro de Inovação e Gestão de Desenvolvimento de Produto</BodyText>
+                    <BodyText><BodyEmphasys>Informações Gerais: </BodyEmphasys>Orientações para que você aproveite ao máximo o 14º Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto</BodyText>
                     <BodyText>A cidade de Natal, capital do estado Rio Grande do Norte, é conhecida por suas belas praias e clima tropical. Com cerca de 900 mil habitantes, possui um parque industrial diversificado, com setores de petróleo, energia renovável, turismo e tecnologia. Sua economia também é impulsionada pela pesca e agricultura, 
                         destacando-se na produção de frutas tropicais e camarão.</BodyText>
 
