@@ -11,7 +11,7 @@ export default function institucional() {
             <div >
                 <Subtitle>Sobre o evento</Subtitle>
                 <div>
-                    <BodyText>O Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto(CBGDP) é um evento bienal que ocorre desde 1999, com o objetivo 
+                    <BodyText>O Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto (CBGDP) é um evento bienal que ocorre desde 1999, com o objetivo 
                         de estimular o compartilhamento de conhecimentos e experiências relacionados ao desenvolvimento de produtos por empresas, seus 
                         profissionais e grupos de pesquisa brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos mais renomados 
                         centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>

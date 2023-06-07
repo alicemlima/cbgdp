@@ -6,7 +6,7 @@ import BodyText from '@/src/components/BodyText';
 import BodyEmphasys from '@/src/components/BodyEmphasys';
 
 
-export default function Programacao() {
+export default function Programacao () {
     return (
       <main className="mx-auto">
             <TitlePage>Programação</TitlePage>

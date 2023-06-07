@@ -1,7 +1,7 @@
 import React from 'react';
 import Subtitle from "@/src/components/Subtitle"
 import TitlePage from "@/src/components/TitlePage"
-import { AiOutlineDown } from 'react-icons/ai';
+import { AiOutlineDownload } from 'react-icons/ai';
 import BodyText from "@/src/components/BodyText"
 import Accordion from "@/src/components/Accordion"
 import BodyEmphasys from '@/src/components/BodyEmphasys';
@@ -20,12 +20,21 @@ export default function submissoes() {
             <div className="w-full space-y-5 text-pallete-white px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-wrap flex-col content-start ">
                 <div className='w-full'>
                     <Subtitle >Temas</Subtitle>
-                    <BodyText>Estamos entusiasmados em anunciar a abertura da chamada de artigos científicos e trabalhos técnicos sobre os temas de inovação e gestão do desenvolvimento de produtos. 
+                   
+
+                        <div className="grid md:grid-cols-4 items-center justify-items-center gap-x-4">
+                            <div className='md:col-span-3'>
+                            <BodyText>Estamos entusiasmados em anunciar a abertura da chamada de artigos científicos e trabalhos técnicos sobre os temas de inovação e gestão do desenvolvimento de produtos. 
                         Convidamos empresas e pesquisadores a compartilharem suas descobertas, experiências e melhores práticas nesse campo emocionante e em constante evolução. Este é o momento ideal 
                         para apresentar suas pesquisas e insights sobre estratégias inovadoras, processos de desenvolvimento de produtos, adoção de tecnologias emergentes, tendências de mercado e muito 
                         mais. Aproveite essa oportunidade para contribuir com o avanço do conhecimento e fazer parte de uma comunidade dedicada à inovação e gestão de produtos. Junte-se a nós nessa jornada de 
                         descobertas e impacto positivo no mundo empresarial.</BodyText>
-                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-xl my-5'>A seguir são enumerados os grandes temas do CBGDP 2023 para submissão dos trabalhos:</div>
+                            </div>
+                            <a href={"https://www.even3.com.br/participante/trabalhocientifico/"} className="h-fit bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
+                                Submeter Inscrição
+                            </a> 
+                        </div>
+                    <BodyEmphasys>A seguir são enumerados os grandes temas do CBGDP 2023 para submissão dos trabalhos:</BodyEmphasys>
                     <div className="grid gap-5 xl:mt-10 xl:gap-8">
                        
                         {accordionItems.map((item, idx) => (
@@ -46,7 +55,10 @@ export default function submissoes() {
 
                 <div>
                     <Subtitle>Premiações</Subtitle>
-                    <div className='text-pallete-blue font-bold lg:mr-10 lg:mb-0 mb-10 text-xl my-5'>Os melhores artigos avaliados de cada tema serão convidados para um fast track pela revista Product Management and Development.</div>
+                    <BodyEmphasys>Os melhores artigos avaliados de cada tema serão convidados para um fast track pela revista Product Management and Development.</BodyEmphasys >
+                    <BodyEmphasys>1° Product Management and Development</BodyEmphasys> 
+                    <BodyEmphasys>2° Produto & Produção</BodyEmphasys> 
+                    <BodyEmphasys>3° GEPROS</BodyEmphasys> 
                     <BodyText>É importante destacar que a escolha pelo fast-track não garante a aceitação automática dos artigos pela revista, uma vez que o processo de avaliação permanece independente. No entanto, essa opção oferece uma análise mais 
                         rápida por parte da revista mencionada, agilizando o processo de avaliação dos trabalhos.</BodyText>
                 </div>
@@ -62,7 +74,9 @@ export default function submissoes() {
 
                 <div>
                     <Subtitle>Templates</Subtitle>
-                    <div className="bg-pallete-orange text-pallete-white rounded-lg max-w-sm mt-5 text-center md:text-2xl text-xl font-black">Mais informações em breve</div>
+                    <a href={"/modelo-artigo-cbgdp.pdf"} className="flex w-fit bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
+                    CBGDP2023 Modelo de artigo <AiOutlineDownload className=' ml-3' size={30}/>
+                    </a> 
                 </div>
             </div>
             

@@ -40,7 +40,7 @@ export default function NavBar() {
     const [navbar, setNavbar] = useState(false)
 
     return (
-        <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-10 bg-pallete-white text-pallete-orange">
+        <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-10 bg-pallete-white text-pallete-orange border-b border-b-pallete-blue shadow-xl">
             <div className="justify-between lg:items-center lg:flex">
                 <div>
                     <div className="flex items-center justify-between py-3 pr-5">

@@ -11,7 +11,7 @@ export default function Accordion({ title, text }) {
 
   return (
     <div
-    className=" h-fit w-full shadow-lg bg-pallete-blue p-8 rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 cursor-pointer"
+    className=" h-fit w-full bg-pallete-blue p-8 rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 cursor-pointer shadow-xl"
       onClick={handleToggle}
     >
         <h1 className="text-xl md:text-2xl font-semibold flex justify-between align-middle ">

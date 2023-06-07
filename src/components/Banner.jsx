@@ -12,9 +12,11 @@ export default function Banner() {
                     </div>
                     <div className="text-pallete-white text-base md:text-xl my-10 xl:justify-self-end 2xl:justify-self-center" >
                         <h4 className="font-bold">22 a 25 de novembro de 2023</h4>
-                        <h4 className="font-thin">Natal, Rio Grande do Norte</h4>
-                        <div className="bg-pallete-orange text-pallete-white rounded-lg max-w-sm mt-5 text-center md:text-xl text-lg font-black">Mais informações em breve</div>
-                    </div>
+                        <h4 className="font-thin mb-5">Natal, Rio Grande do Norte</h4>
+                        <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="h-fit bg-pallete-orange hover:bg-pallete-blue hover:text-pallete-orange text-pallete-white hover:border-transparent hover:border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
+                            Realizar Inscrição
+                        </a> 
+                          </div>
                 </div>
             </div>
             

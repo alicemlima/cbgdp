@@ -23,7 +23,9 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="bg-pallete-blue text-pallete-white rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-lg font-black">Inscrições começam em 12/06</div>
+      <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="h-fit bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
+          Realizar Inscrição
+      </a> 
 
     </div>
   );

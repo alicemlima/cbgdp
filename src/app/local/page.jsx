@@ -80,11 +80,11 @@ export default function Local() {
 
                         </div>
                         <div className='flex justify-center '>
-                            <a href={"https://www.booking.com/pool/city/br/natal.en-gb.html?aid=318615;label=Catch_All-EN-135970830368-EM4Z8mM*XIOaQWTD01K7qwS566165083356:pl:ta:p1:p2:ac:ap:neg:fi:tidsa-1642633468498:lp1001662:li:dec:dm;ws=&gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6cmrxUltVv8T--nZdb0tPaHPOG759h9TefW4amK0ad8eO2q14YRodgaApqHEALw_wcB"} class="bg-transparent shadow-lg m-3 hover:bg-pallete-blue text-pallete-blue font-semibold hover:text-pallete-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                            <a href={"https://www.booking.com/pool/city/br/natal.en-gb.html?aid=318615;label=Catch_All-EN-135970830368-EM4Z8mM*XIOaQWTD01K7qwS566165083356:pl:ta:p1:p2:ac:ap:neg:fi:tidsa-1642633468498:lp1001662:li:dec:dm;ws=&gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6cmrxUltVv8T--nZdb0tPaHPOG759h9TefW4amK0ad8eO2q14YRodgaApqHEALw_wcB"} className="bg-transparent shadow-lg m-3 hover:bg-pallete-blue text-pallete-blue font-semibold hover:text-pallete-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                                 Hospedagem Booking
                            </a>     
                         
-                           <a href={"https://www.airbnb.com.br/natal-brazil/stays"} class="bg-transparent shadow-lg m-3 hover:bg-pallete-blue text-pallete-blue font-semibold hover:text-pallete-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                           <a href={"https://www.airbnb.com.br/natal-brazil/stays"} className="bg-transparent shadow-lg m-3 hover:bg-pallete-blue text-pallete-blue font-semibold hover:text-pallete-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                                 Hospedagem Airbnb
                            </a> 
                         </div>          
