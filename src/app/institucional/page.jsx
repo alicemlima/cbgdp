@@ -62,13 +62,28 @@ export default function institucional() {
                         <h2 className="text-lg md:text-xl">Comitê científico</h2>
                         <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>
                         <li>Prof. Dr. Raoni Barros Bagno (UFMG)</li>
-                        <li>Prof. Dr. Daniel Capaldo Amaral</li>
+                        <li>Prof. Dr. Daniel Capaldo Amaral (USP)</li>
+                        <li>Prof. Dr. Diego De Castro Fettermann (UFSC)</li>
+                        <li>Prof. Dr. Fernando Henrique Lermen (Universidade Estadual do Paraná)</li>
+                        <li>Prof. Dr. Glauco Henrique De Sousa Mendes (UFSCar)</li>
+                        <li>Prof. Dr. Guilherme Brittes Benitez (PUC-PR)</li>
+                        <li>Prof. Dr. Hugo Jose Ribeiro Junior (UNIFEI)</li>
+                        <li>Profa. Dra. Istefani Carisio de Paula (UFRGS)</li>
+                        <li>Prof. Dr. Maicon Gouvea de Oliveira (USP)</li>
+                        <li>Prof. Dr. Mario Orestes Aguirre Gonzalez (UFRN)</li>
+                        <li>Prof. Dr. Matheus Luiz Pontelo de Souza (PUC-MG)</li>
+                        <li>Prof. Dr. Milton Borsato (UFPR)</li>
+                        <li>Profa. Dra. Cynara Mendonça Moreira Tinoco (UFG)</li>
+                        <li>Profa. Dra. Sania Da Costa Fernandes (Universidade Presbiteriana Mackenzie)</li>
                     </div>
                     <div>
                         <h2 className="text-lg md:text-xl ">Comitê de programação</h2>
-                        <li>Prof. Dr. Daniel Jugend</li>
                         <li>Prof. Dr. Guilherme Brittes Benitez (PUCPR)</li>
-                        <li>Prof. Dr. Daniel Capaldo Amaral</li>
+                        <li>Prof. Dr. Fernando Henrique Lermen (Universidade Estadual do Paraná)</li>
+                        <li>Prof. Dr. Luís Fernando Magnanini de Almeida (UFU)</li>
+                        <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
+                        <li>Prof. Dr. Raoni Barros Bagno (UFMG)</li>
+                        <li>Prof. Dr. Daniel Jugend</li>
                     </div>
                     <div>
                         <h2 className="text-xlgl md:text-xl ">Comitê administrativo</h2>

@@ -31,7 +31,7 @@ export default function submissoes() {
                         descobertas e impacto positivo no mundo empresarial.</BodyText>
                             </div>
                             <a href={"https://www.even3.com.br/participante/trabalhocientifico/"} className="h-fit bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
-                                Submeter Inscrição
+                                Submeter Artigo
                             </a> 
                         </div>
                     <BodyEmphasys>A seguir são enumerados os grandes temas do CBGDP 2023 para submissão dos trabalhos:</BodyEmphasys>
