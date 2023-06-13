@@ -9,9 +9,9 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 export default function Local() {
 
     const carouselItems = [
-        { url: '/buggy.jpg' },
-        { url: '/natal.webp' },
-        { url: '/forte.jpg' },
+        { url: '/cbgdp2023/buggy.jpg' },
+        { url: '/cbgdp2023/natal.webp' },
+        { url: '/cbgdp2023/forte.jpg' },
       ];
     return (
       <main className="mx-auto">
@@ -23,7 +23,7 @@ export default function Local() {
                         
                         <div>
                             <p  className="text-justify mb-10 md:text-xl">O Instituto Metrópole Digital (IMD) é uma Unidade Acadêmica Especializada da Universidade Federal do Rio Grande do Norte (UFRN), com um perfil diferenciado da maioria dos centros acadêmicos e departamentos das universidades federais brasileiras.</p>
-                            <img src={"/imd.jpg"} className='min-h-[70%] '/>
+                            <img src={"/cbgdp2023/imd.jpg"} className='min-h-[70%] '/>
                         </div> 
 
                         <div className='h-full w-full my-10 lg:mt-0' >  

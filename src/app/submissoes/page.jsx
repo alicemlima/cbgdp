@@ -74,7 +74,7 @@ export default function submissoes() {
 
                 <div>
                     <Subtitle>Templates</Subtitle>
-                    <a href={"/modelo-artigo-cbgdp.pdf"} className="flex w-fit bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
+                    <a href={"/cbgdp2023/modelo-artigo-cbgdp.pdf"} className="flex w-fit bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
                     CBGDP2023 Modelo de artigo <AiOutlineDownload className=' ml-3' size={30}/>
                     </a> 
                 </div>

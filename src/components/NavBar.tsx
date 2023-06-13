@@ -11,7 +11,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
     {
         label: "Home",
-        page: "",
+        page: "https://www.igdp.org.br/cbgdp2023/",
     },
     {
         label: "Institucional",

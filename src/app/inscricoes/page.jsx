@@ -8,7 +8,7 @@ export default function inscricoes() {
     return (
         <main className="mx-auto">
             <TitlePage>Inscrições</TitlePage>
-            <div className="w-full space-y-10 text-pallete-medium-dark text-lg md:text-xl px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-col flex-wrap content-start">
+            <div className="w-full space-y-10 text-pallete-medium-dark text-lg md:text-xl px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-col">
                 <div className="grid md:grid-cols-3 items-center justify-items-center gap-x-4">
                     <div className='md:col-span-2'>
                     <BodyText>A seguir temos a tabela de valores das inscrições para o CBGDP 2023. Os preços variam de acordo com o tipo de participante: aluno de 
@@ -18,7 +18,7 @@ export default function inscricoes() {
                         Realizar Inscrição
                     </a> 
                 </div>
-                <div className='w-[96vw] overflow-x-auto'>
+                <div className='w-[96vw] md:w-[90vw] overflow-x-auto'>
                     <table class="table-auto text-center border-separate border-spacing-2">
                         <thead>
                             <tr className='text-pallete-blue font-bold'>
@@ -68,7 +68,7 @@ export default function inscricoes() {
                 <BodyText>Para aqueles que publicarem artigos ou trabalhos técnicos, há valores que devem ser pagos adicionalmente à inscrição. Estes serão 
                     pagos uma única vez, por artigo/trabalho técnico, independentemente do número de autores, segundo a tabela abaixo:</BodyText>
                     
-                    <div className=' w-[96vw] overflow-x-auto'>
+                    <div className='w-[96vw] md:w-[90vw] overflow-x-auto'>
                         <table class="table-auto text-center border-separate border-spacing-2 ">
                         <thead>
                             <tr className='text-pallete-blue font-bold'>

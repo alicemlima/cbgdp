@@ -16,7 +16,7 @@ export default function Sobre() {
                     brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos mais renomados centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>
                 </div>
                 <div className="absolut bg-pallete-orange rounded-tl-[70%] h-[100%] 2xl:h-[70%] w-fit">
-                        <img className="relative rounded-tl-[70%] h-[100%] left-4 top-4" src={"/people.jpg"} alt={""} />
+                        <img className="relative rounded-tl-[70%] h-[100%] left-4 top-4" src={"/cbgdp2023/people.jpg"} alt={""} />
                 </div>
             </div>
 
