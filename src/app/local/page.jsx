@@ -22,12 +22,12 @@ export default function Local() {
                     <div className="lg:grid lg:grid-cols-2 lg:gap-20 ">
                         
                         <div>
-                            <p  className="text-justify mb-10 md:text-xl">O Instituto Metrópole Digital (IMD) é uma Unidade Acadêmica Especializada da Universidade Federal do Rio Grande do Norte (UFRN), com um perfil diferenciado da maioria dos centros acadêmicos e departamentos das universidades federais brasileiras.</p>
+                            <BodyText>O Instituto Metrópole Digital (IMD) é uma Unidade Acadêmica Especializada da Universidade Federal do Rio Grande do Norte (UFRN), com um perfil diferenciado da maioria dos centros acadêmicos e departamentos das universidades federais brasileiras.</BodyText>
                             <img src={"/cbgdp2023/imd.jpg"} className='min-h-[70%] '/>
                         </div> 
 
                         <div className='h-full w-full my-10 lg:mt-0' >  
-                            <p  className="text-justify mb-10 md:text-xl">Esse perfil alinha-se com sua missão de fomentar a criação de um Polo Tecnológico em Tecnologia da Informação (TI) no estado do Rio Grande do Norte, abrangendo iniciativas dos setores público, privado e acadêmico, a base para a sua estrutura organizacional.</p>
+                            <BodyText>Esse perfil alinha-se com sua missão de fomentar a criação de um Polo Tecnológico em Tecnologia da Informação (TI) no estado do Rio Grande do Norte, abrangendo iniciativas dos setores público, privado e acadêmico, a base para a sua estrutura organizacional.</BodyText>
     
                             <iframe
                                 title="Digital Metropolis Institute"

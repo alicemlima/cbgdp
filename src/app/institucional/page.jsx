@@ -11,17 +11,17 @@ export default function institucional() {
             <div >
                 <Subtitle>Sobre o evento</Subtitle>
                 <div>
-                    <BodyText>O Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto (CBGDP) é um evento bienal que ocorre desde 1999, com o objetivo 
-                        de estimular o compartilhamento de conhecimentos e experiências relacionados ao desenvolvimento de produtos por empresas, seus 
-                        profissionais e grupos de pesquisa brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos mais renomados 
-                        centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>
-                    <BodyText>Neste ano, o CBGDP será sediado na cidade de Natal, localizada no estado do Rio Grande do Norte. Natal foi escolhida como 
-                        sede do evento devido à sua crescente relevância no cenário de pesquisa e desenvolvimento de inovações no país, especialmente na 
-                        área sustentável. A cidade possui instituições de ensino e pesquisa de destaque, além de contar com uma infraestrutura adequada 
-                        para receber os participantes do congresso.</BodyText>
-                    <BodyText>Durante o CBGDP serão promovidas palestras, minicursos e apresentações de trabalhos técnicos e científicos, abordando diversas
-                         áreas do desenvolvimento de produtos. Os participantes terão a oportunidade de trocar experiências, discutir tendências e ampliar 
-                         seus conhecimentos nesse campo.</BodyText>
+                    <BodyText>O Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto (CBGDP) é um evento bienal que ocorre desde 1999, 
+                        com o objetivo de estimular o compartilhamento de conhecimentos e experiências relacionados ao desenvolvimento de produtos por 
+                        empresas, seus profissionais e grupos de pesquisa brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos 
+                        mais renomados centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>
+                    <BodyText>Neste ano, o 14° Congresso Brasileiro de Inovação e Gestão de Desenvolvimento de Produto será sediado na cidade de Natal, 
+                        localizada no estado do Rio Grande do Norte. Natal foi escolhida como sede do evento devido à sua crescente relevância no cenário 
+                        de pesquisa e desenvolvimento de inovações no país, especialmente na área sustentável. A cidade possui instituições de ensino e 
+                        pesquisa de destaque, além de contar com uma infraestrutura adequada para receber os participantes do congresso.</BodyText>
+                    <BodyText>Durante o CBGDP serão promovidas palestras, minicursos e apresentações de trabalhos técnicos e científicos, abordando diversas 
+                        áreas do desenvolvimento de produtos. Os participantes terão a oportunidade de trocar experiências, discutir tendências e ampliar seus 
+                        conhecimentos nesse campo.</BodyText>
                     <BodyText>Com o passar dos anos, o CBGDP tem se consolidado como um importante fórum para a disseminação de boas práticas e avanços científicos 
                         relacionados ao desenvolvimento de produtos no Brasil. Além disso, o evento contribui para fortalecer o networking entre empresas e consultorias, 
                         bem como aprofundar a colaboração entre grupos de pesquisa sobre inovação tecnológica no país.</BodyText>
@@ -47,6 +47,8 @@ export default function institucional() {
                             <img src={"/cbgdp2023/imd-logo.png"} alt="" /></a>
                             <a href="https://www.igdp.org.br/">
                             <img src={"/cbgdp2023/senai-logo.png"} alt="" /></a>
+                            <a href="https://parquemetropole.imd.ufrn.br/parque/">
+                            <img src={"/cbgdp2023/parque.jpg"} alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -59,6 +61,12 @@ export default function institucional() {
                         <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>
                     </div>
                     
+                    
+                    <div>
+                        <h2 className="text-xlgl md:text-xl ">Comitê administrativo</h2>
+                        <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
+                    </div>
+
                     <div>
                         <h2 className="text-lg md:text-xl ">Comitê de programação</h2>
                         <li>Prof. Dr. Guilherme Brittes Benitez (PUCPR)</li>
@@ -68,10 +76,7 @@ export default function institucional() {
                         <li>Prof. Dr. Raoni Barros Bagno (UFMG)</li>
                         <li>Prof. Dr. Daniel Jugend</li>
                     </div>
-                    <div>
-                        <h2 className="text-xlgl md:text-xl ">Comitê administrativo</h2>
-                        <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
-                    </div>
+
                     <div>
                         <h2 className="text-lg md:text-xl">Comitê científico</h2>
                         <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>

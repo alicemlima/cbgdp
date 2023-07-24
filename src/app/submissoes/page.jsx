@@ -21,14 +21,12 @@ export default function submissoes() {
                 <div className='w-full'>
                     <Subtitle >Temas</Subtitle>
                    
-
                         <div className="grid md:grid-cols-4 items-center justify-items-center gap-x-4">
                             <div className='md:col-span-3'>
-                            <BodyText>Estamos entusiasmados em anunciar a abertura da chamada de artigos científicos e trabalhos técnicos sobre os temas de inovação e gestão do desenvolvimento de produtos. 
-                        Convidamos empresas e pesquisadores a compartilharem suas descobertas, experiências e melhores práticas nesse campo emocionante e em constante evolução. Este é o momento ideal 
-                        para apresentar suas pesquisas e insights sobre estratégias inovadoras, processos de desenvolvimento de produtos, adoção de tecnologias emergentes, tendências de mercado e muito 
-                        mais. Aproveite essa oportunidade para contribuir com o avanço do conhecimento e fazer parte de uma comunidade dedicada à inovação e gestão de produtos. Junte-se a nós nessa jornada de 
-                        descobertas e impacto positivo no mundo empresarial.</BodyText>
+                            <BodyText>Estamos entusiasmados em anunciar a abertura da chamada de artigos científicos e trabalhos técnicos sobre os temas de inovação e gestão do desenvolvimento de produtos.</BodyText>
+                            <BodyText>Convidamos empresas e pesquisadores a compartilharem suas descobertas, experiências e melhores práticas nesse importante campo que está em constante evolução. Este é o momento ideal para apresentar suas pesquisas e insights sobre estratégias inovadoras, processos de desenvolvimento de produtos, adoção de tecnologias emergentes, tendências de mercado e muito mais.</BodyText>
+                            <BodyText>Aproveite essa oportunidade para contribuir com o avanço do conhecimento e fazer parte de uma comunidade dedicada à inovação. Todos os artigos e trabalhos técnicos submetidos serão avaliados pelo comitê científico do 14º CBGDP.</BodyText>
+
                             </div>
                             <a href={"https://www.even3.com.br/participante/trabalhocientifico/"} className="h-fit bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
                                 Submeter Artigo
@@ -41,26 +39,34 @@ export default function submissoes() {
                             <Accordion key={idx} title={item.title} text={item.text} />
                         ))}
                     </div>
-                    <BodyText>Todos os artigos e trabalhos técnicos submetidos serão avaliados pelo comitê científico do 14º CBGDP. Os trabalhos aceitos serão apresentados nas sessões temáticas, que representam 
-                        um momento importante para a divulgação e discussão de pesquisas científicas e práticas profissionais relacionadas à Inovação e Desenvolvimento de Produto.</BodyText>
-                    <BodyText>As sessões temáticas serão organizadas de acordo com os quatro principais temas do congresso e terão duração aproximada de duas horas. Os trabalhos selecionados serão divididos em 
-                        duas modalidades de apresentação: oral e pôster. Os melhores artigos e trabalhos técnicos serão escolhidos para apresentações orais, onde pelo menos um dos autores obrigatoriamente deverá 
-                        conduzir a apresentação durante a sessão temática. Após cada apresentação oral, haverá espaço para debates enriquecedores.</BodyText>
-                    <BodyText>Os demais trabalhos serão apresentados na forma de pôsteres, em espaços físicos dedicados para essa finalidade. É recomendável que pelo menos um dos autores esteja presente durante 
-                        as sessões temáticas para explicar e discutir o trabalho com os participantes.</BodyText>
-                    <BodyText>Em breve, serão disponibilizados modelos para a submissão de artigos científicos e trabalhos técnicos. Fique atento às atualizações e aproveite essa oportunidade para compartilhar 
-                        seus conhecimentos e contribuir para o avanço da área.</BodyText>
-
+                    <BodyText>Os trabalhos aceitos serão apresentados nas sessões temáticas, que representam um momento importante para a divulgação e discussão de pesquisas científicas e práticas profissionais relacionadas à Inovação e Desenvolvimento de Produto.</BodyText>
+                    <BodyText>As sessões temáticas serão organizadas de acordo com os quatro principais temas do congresso e terão duração aproximada de duas horas, dentro das quais serão apresentados vários trabalhos. Os trabalhos selecionados serão divididos em duas modalidades de apresentação: oral e em pôster. Os melhores artigos e trabalhos técnicos serão escolhidos para apresentações orais, onde pelo menos um dos autores obrigatoriamente deverá conduzir a apresentação durante a sessão temática. Esta apresentação poderá ser presencial ou de forma remota. Após cada apresentação, haverá espaço para debates enriquecedores.</BodyText>
+                    <BodyText>Outros trabalhos selecionados serão apresentados na forma de pôsteres, em espaços físicos dedicados para essa finalidade. Haverá momento de visitação aos pôsteres, sendo recomendável (mas não obrigatório) que pelo menos um dos autores esteja presente durante estes momentos para explicar e discutir o trabalho com os participantes.</BodyText>
+                    <BodyText>Todos os trabalhos aprovados pelo comitê científico serão publicados nos anais.</BodyText>
+                    <BodyText>Abaixo está disponibilizado o modelo para a submissão de artigos científicos e trabalhos técnicos. Com o artigo pronto, clique no botão acima “Submeter artigo”. Ao fazer isso, você será redirecionado para a página do evento na plataforma Even3, onde será guiado nos passos da submissão. Aproveite essa oportunidade para compartilhar seus conhecimentos e contribuir para o avanço da área.</BodyText>
+                    <div className='flex justify-center space-x-5'>
+                        <a href={"/cbgdp2023/modelo-artigo-cbgdp.pdf"} className="h-fit w-fit flex bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
+                        CBGDP2023 Modelo de artigo <AiOutlineDownload className='ml-3' size={30}/>
+                        </a> 
+                        <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base cursor-pointer">
+                            Realizar Inscrição
+                        </a>
+                    </div>
                 </div>
 
                 <div>
                     <Subtitle>Premiações</Subtitle>
-                    <BodyEmphasys>Os melhores artigos avaliados de cada tema serão convidados para um fast track pela revista Product Management and Development.</BodyEmphasys >
-                    <BodyEmphasys>1° Product Management and Development</BodyEmphasys> 
-                    <BodyEmphasys>2° Produto & Produção</BodyEmphasys> 
-                    <BodyEmphasys>3° GEPROS</BodyEmphasys> 
-                    <BodyText>É importante destacar que a escolha pelo fast-track não garante a aceitação automática dos artigos pela revista, uma vez que o processo de avaliação permanece independente. No entanto, essa opção oferece uma análise mais 
-                        rápida por parte da revista mencionada, agilizando o processo de avaliação dos trabalhos.</BodyText>
+                    <BodyEmphasys>Os melhores artigos avaliados de cada tema serão convidados para um fast track pela revistas:</BodyEmphasys >
+
+                    <ul className='text-pallete-blue font-bold text-xl list-disc ml-5'>
+                        <li>Product Management and Development</li>
+                        <li>Produto & Produção</li>
+                        <li>GEPROS</li>
+                    </ul>
+    
+                    <BodyText>É importante destacar que a escolha pelo fast-track não garante a aceitação automática dos artigos pela revista, uma vez que o processo de avaliação permanece independente. No entanto, essa opção oferece uma análise mais rápida por parte da revista mencionada, agilizando o processo de avaliação dos trabalhos.</BodyText>
+                    <BodyText>Os três melhores trabalhos de cada uma das 4 temáticas do CBGDP2023 serão premiados com um certificado de "Menção Honrosa".</BodyText>
+
                 </div>
                 
                 <div>
@@ -70,13 +76,6 @@ export default function submissoes() {
                     <BodyEmphasys>13/10/23 – Data limite para a resposta de aceitação do trabalho</BodyEmphasys> 
 
 
-                </div>
-
-                <div>
-                    <Subtitle>Templates</Subtitle>
-                    <a href={"/cbgdp2023/modelo-artigo-cbgdp.pdf"} className="flex w-fit bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
-                    CBGDP2023 Modelo de artigo <AiOutlineDownload className=' ml-3' size={30}/>
-                    </a> 
                 </div>
             </div>
             
