@@ -23,6 +23,7 @@ module.exports = {
   },
     colors: {
       pallete: {
+        link: '#027eb5', 
         blue: '#28488C',
         orange: '#F79633',
         white: '#FFFFFF',

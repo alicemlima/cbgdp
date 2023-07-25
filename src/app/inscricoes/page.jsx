@@ -102,7 +102,9 @@ export default function inscricoes() {
                         </tbody>
                     </table>
                 </div>
-                <BodyText>As inscrições estão sujeitas à disponibilidade de vagas e acontecerão por ordem de realização.</BodyText>
+                <BodyText>Ao clicar no link "Realizar Inscrição", você será redirecionado para a página do evento na plataforma Even3. Basta seguir os passos e sua inscrição será realizada.</BodyText>
+                <BodyText>Caso deseje obter desconto na inscrição do CBGDP2023, realize sua associação ao IGDP, estamos com condições especiais. Para conferir todos os benefícios do associado, acesse: <a className='text-pallete-blue font-bold' href='https://www.igdp.org.br/associacao/'>igdp.org.br/associacao</a></BodyText>
+
             </div>
         </main>
         )

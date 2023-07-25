@@ -59,10 +59,38 @@ export default function Local() {
                     </div>
                     <div>
                         <BodyText><BodyEmphasys>Hospedagem: </BodyEmphasys>A rede hoteleira de Natal encanta com opções para todos os gostos. Desde resorts luxuosos à beira-mar até aconchegantes pousadas, há acomodações para todos os bolsos. Com serviço de qualidade, infraestrutura moderna e localização privilegiada, os hotéis em Natal proporcionam uma estadia memorável para os visitantes que desejam explorar as belezas da cidade.</BodyText>
+                        <BodyText>Segue link para reservas com as tarifas acordo do evento 14º Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto.</BodyText>
+                        <ul className='mt-5 space-y-2'>
+                            <li className='list-disc ml-5'>
+                                <a href='https://book.omnibees.com/hotelresults?q=2623&lang=pt-BR&currencyId=16&hotel_folder=&mysite=ob&CheckIn=22112023&CheckOut=25112023&ad=1&ch=0&ag=&Code=INOVACAO'>
+                                    <div className=' font-bold text-pallete-link'>PRAIAMAR NATAL HOTEL & CONVENTION</div>
+                                </a>
+                                <div>Código promocional: INOVACAO</div>
+                            </li>
+                            <li className=' list-disc ml-5'>
+                                <a href='https://book.omnibees.com/hotelresults?q=2623&lang=pt-BR&currencyId=16&hotel_folder=&mysite=ob&CheckIn=22112023&CheckOut=25112023&ad=1&ch=0&ag=&Code=INOVACAO'>
+                                    <div className=' font-bold text-pallete-link'>PRAIAMAR EXPRESS HOTEL</div>
+                                </a>
+                                <div>Código promocional: INOVACAO</div>
+                            </li>
+                            <li className=' list-disc ml-5'>
+                                <a href='https://book.omnibees.com/hotelresults?q=4529&lang=pt-BR&currencyId=16&hotel_folder=&mysite=ob&CheckIn=22112023&CheckOut=25112023&ad=1&ch=0&ag=&Code=INOVACAO'>
+                                    <div className=' font-bold text-pallete-link'>HOLIDAY INN NATAL</div>
+                                </a>
+                                <div>Código promocional: INOVACAO</div>
+                            </li>
+                            <li className=' list-disc ml-5'>
+                                <a href='https://book.omnibees.com/hotelresults?q=2623&lang=pt-BR&currencyId=16&hotel_folder=&mysite=ob&CheckIn=22112023&CheckOut=25112023&ad=1&ch=0&ag=&Code=INOVACAO'>
+                                    <div className=' font-bold text-pallete-link'>PRAIAMAR NATAL HOTEL & CONVENTION</div>
+                                </a>
+                                <div>Código promocional: INOVACAO</div>
+                            </li>
+                        </ul>
+                        
                         <div className="lg:grid lg:grid-cols-2 lg:gap-20 mt-5 ">
 
                             <div className='h-full w-full my-10 lg:mt-0' >      
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/eHRDzsr-g4w?start=50&autoplay=1" 
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/eHRDzsr-g4w?start=50&autoplay=1&mute=1" 
                                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
                                 className='min-h-[70%] w-full'  ></iframe>
                             </div>

@@ -36,7 +36,7 @@ export default function submissoes() {
                     <div className="grid gap-5 xl:mt-10 xl:gap-8">
                        
                         {accordionItems.map((item, idx) => (
-                            <Accordion key={idx} title={item.title} text={item.text} />
+                            <Accordion key={idx} title={item.title}> {item.text}</Accordion>
                         ))}
                     </div>
                     <BodyText>Os trabalhos aceitos serão apresentados nas sessões temáticas, que representam um momento importante para a divulgação e discussão de pesquisas científicas e práticas profissionais relacionadas à Inovação e Desenvolvimento de Produto.</BodyText>
