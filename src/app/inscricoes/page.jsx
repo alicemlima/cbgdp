@@ -19,7 +19,7 @@ export default function inscricoes() {
                     </a> 
                 </div>
                 <div className='w-[96vw] md:w-[90vw] overflow-x-auto'>
-                    <table class="table-auto text-center border-separate border-spacing-2">
+                    <table className="table-auto text-center border-separate border-spacing-2">
                         <thead>
                             <tr className='text-pallete-blue font-bold'>
                                 <th>Tipo de inscrição (individual e sem direito à publicação)</th>
@@ -69,7 +69,7 @@ export default function inscricoes() {
                     pagos uma única vez, por artigo/trabalho técnico, independentemente do número de autores, segundo a tabela abaixo:</BodyText>
                     
                     <div className='w-[96vw] md:w-[90vw] overflow-x-auto'>
-                        <table class="table-auto text-center border-separate border-spacing-2 ">
+                        <table className="table-auto text-center border-separate border-spacing-2 ">
                         <thead>
                             <tr className='text-pallete-blue font-bold'>
                                 <th>Tipo de inscrição</th>
@@ -102,7 +102,7 @@ export default function inscricoes() {
                         </tbody>
                     </table>
                 </div>
-                <BodyText>Ao clicar no link "Realizar Inscrição", você será redirecionado para a página do evento na plataforma Even3. Basta seguir os passos e sua inscrição será realizada.</BodyText>
+                <BodyText>Ao clicar no link &quot;Realizar Inscrição&quot;, você será redirecionado para a página do evento na plataforma Even3. Basta seguir os passos e sua inscrição será realizada.</BodyText>
                 <BodyText>Caso deseje obter desconto na inscrição do CBGDP2023, realize sua associação ao IGDP, estamos com condições especiais. Para conferir todos os benefícios do associado, acesse: <a className='text-pallete-blue font-bold' href='https://www.igdp.org.br/associacao/'>igdp.org.br/associacao</a></BodyText>
 
             </div>

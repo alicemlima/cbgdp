@@ -44,8 +44,8 @@ export default function submissoes() {
                     <BodyText>Outros trabalhos selecionados serão apresentados na forma de pôsteres, em espaços físicos dedicados para essa finalidade. Haverá momento de visitação aos pôsteres, sendo recomendável (mas não obrigatório) que pelo menos um dos autores esteja presente durante estes momentos para explicar e discutir o trabalho com os participantes.</BodyText>
                     <BodyText>Todos os trabalhos aprovados pelo comitê científico serão publicados nos anais.</BodyText>
                     <BodyText>Abaixo está disponibilizado o modelo para a submissão de artigos científicos e trabalhos técnicos. Com o artigo pronto, clique no botão acima “Submeter artigo”. Ao fazer isso, você será redirecionado para a página do evento na plataforma Even3, onde será guiado nos passos da submissão. Aproveite essa oportunidade para compartilhar seus conhecimentos e contribuir para o avanço da área.</BodyText>
-                    <div className='flex justify-center space-x-5'>
-                        <a href={"/cbgdp2023/modelo-artigo-cbgdp.pdf"} className="h-fit w-fit flex bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
+                    <div className='flex justify-center space-x-5 mt-10'>
+                        <a href={"/cbgdp2023/modelo-artigo-cbgdp.docx"} className="h-fit w-fit flex bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
                         CBGDP2023 Modelo de artigo <AiOutlineDownload className='ml-3' size={30}/>
                         </a> 
                         <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base cursor-pointer">
@@ -65,7 +65,7 @@ export default function submissoes() {
                     </ul>
     
                     <BodyText>É importante destacar que a escolha pelo fast-track não garante a aceitação automática dos artigos pela revista, uma vez que o processo de avaliação permanece independente. No entanto, essa opção oferece uma análise mais rápida por parte da revista mencionada, agilizando o processo de avaliação dos trabalhos.</BodyText>
-                    <BodyText>Os três melhores trabalhos de cada uma das 4 temáticas do CBGDP2023 serão premiados com um certificado de "Menção Honrosa".</BodyText>
+                    <BodyText>Os três melhores trabalhos de cada uma das 4 temáticas do CBGDP2023 serão premiados com um certificado de &quot;Menção Honrosa&quot;.</BodyText>
 
                 </div>
                 

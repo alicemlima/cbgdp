@@ -15,10 +15,12 @@ export default function Sobre() {
                      experiências relacionados ao desenvolvimento de produtos por empresas, seus profissionais e grupos de pesquisa brasileiros. O congresso é realizado nos anos ímpares e tem sido sediado pelos mais
                       renomados centros de pesquisa em desenvolvimento de produtos do Brasil.</BodyText>
                 <BodyText>As inscrições estão sujeitas à disponibilidade de vagas e acontecerão por ordem de realização.</BodyText>
-                <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="h-fit bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
-                    Realizar Inscrição
-                </a> 
-                <BodyText>Ao clicar no link "Realizar Inscrição", você será redirecionado para a página do evento na plataforma Even3. Basta seguir os passos e sua inscrição será realizada.</BodyText>
+                <div className="my-10">
+                    <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="h-fit bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
+                        Realizar Inscrição
+                    </a> 
+                </div>
+                <BodyText>Ao clicar no link &quot;Realizar Inscrição&quot;, você será redirecionado para a página do evento na plataforma Even3. Basta seguir os passos e sua inscrição será realizada.</BodyText>
 
                 </div>
                 <div className="absolut bg-pallete-orange rounded-tl-[70%] h-[100%] 2xl:h-[70%] w-fit">

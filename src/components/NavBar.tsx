@@ -46,7 +46,7 @@ export default function NavBar() {
                     <div className="flex items-center justify-between py-3 pr-5">
                         <div className="flex items-center justify-between">
                             <div className="container flex items-center space-x-2 max-w-[50%] lg:max-w-[70%] ">
-                                <a href="https://www.igdp.org.br/cbgdp2021/">
+                                <a href="https://www.igdp.org.br/cbgdp2023/">
                                 <img className="max-h-fill" src="https://www.igdp.org.br/cbgdp2021/wp-content/uploads/logo_cbgdp.png" alt="" width="auto" height="10" /></a>
                             </div>
                         </div>
