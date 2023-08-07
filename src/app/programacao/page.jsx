@@ -1,14 +1,23 @@
-import React from 'react';
+'use client'
+import React, { useEffect, useState } from 'react';
 import Subtitle from "@/src/components/Subtitle"
 import TitlePage from "@/src/components/TitlePage"
 import { BsFillCalendarCheckFill } from 'react-icons/bs';
 import BodyText from '@/src/components/BodyText';
 import BodyEmphasys from '@/src/components/BodyEmphasys';
-import Accordion from "@/src/components/Accordion" 
+import Accordion from "@/src/components/Accordion"
+import VerMais from "@/src/components/VerMais" 
+
 import Imagem from "@/src/components/Imagem" 
 
 
 export default function Programacao () {
+    const [showFullText, setShowFullText] = useState(false);
+
+  const toggleText = () => {
+    setShowFullText(!showFullText);
+  };
+  const buttonText = showFullText ? 'Ver Menos' : 'Ver Mais';
     return (
       <main className="mx-auto">
             <TitlePage>Programação</TitlePage>
@@ -36,7 +45,32 @@ export default function Programacao () {
                             <div className='mt-10 min-w-fit'>
                                 <Imagem imagem={"/cbgdp2023/alejandro.jpeg"} descricao={"Prof. Dr. Alejandro G. Frank"} />
                             </div>
-                            <BodyText>Professor Adjunto do Departamento de Engenharia de Produção da Universidade Federal do Rio Grande do Sul (UFRGS). Diretor do Núcleo de Engenharia Organizacional/NEO (www.ufrgs.br/neo) da UFRGS, Editor do International Journal of Production Economics (Elsevier) e Coordenador do curso de especialização em Indústria 4.0 e Transformação Digital da UFRGS. Possui Mestrado e Doutorado em Engenharia de Produção pela UFRGS. Foi pesquisador visitante da CAPES no Massachusetts Institute of Technology (MIT), Estados Unidos (2019), e pesquisador visitante do CNPq (doutorado sanduíche) no Politecnico di Milano, Itália (2012). Também foi pesquisador associado do MIT Industrial Performance Center de 2020 a 2022. É especialista em Indústria 4.0 e transformação digital, com interesse nas estratégias de adoção de tecnologias digitais e seus impactos nas operações, na gestão da cadeia de suprimentos e na transformação dos modelos de negócios. CV completo (inglês): www.ufrgs.br/neo/frank</BodyText>
+                            <VerMais textoCurto={`Professor Adjunto do Departamento de Engenharia de Produção da Universidade Federal do Rio Grande do Sul (UFRGS). Diretor do Núcleo de Engenharia Organizacional/NEO (www.ufrgs.br/neo) da UFRGS, Editor do International Journal
+                              of Production Economics (Elsevier) e Coordenador do curso de especialização em Indústria 4.0 e Transformação
+                              Digital da UFRGS. Possui Mestrado e Doutorado em Engenharia de Produção pela UFRGS.`}
+                              textoLongo={` Foi pesquisador visitante
+                              da CAPES no Massachusetts Institute of Technology (MIT), Estados Unidos (2019), e pesquisador visitante do CNPq
+                              (doutorado sanduíche) no Politecnico di Milano, Itália (2012). Também foi pesquisador associado do MIT Industrial
+                              Performance Center de 2020 a 2022. É especialista em Indústria 4.0 e transformação digital, com interesse nas
+                              estratégias de adoção de tecnologias digitais e seus impactos nas operações, na gestão da cadeia de suprimentos
+                              e na transformação dos modelos de negócios. CV completo (inglês): www.ufrgs.br/neo/frank`} />
+                        </div>
+
+                        <div className='grid  md:flex md:space-x-10'>
+                            
+                            <VerMais textoCurto={`Pierre Lucena Raboni é doutor em Administração pela Pontifícia Universidade Católica do Rio de Janeiro (2005), Mestre em Economia pela Universidade Federal de Pernambuco e Graduado em Administração pela Universidade Federal de Pernambuco (2000 e 1994). Presidente do Porto Digital, um dos principais ambientes de inovação do Brasil, com mais de 17 mil colaboradores e 365 empresas. Também é professor da Universidade Federal de Pernambuco em regime de 20 horas.`}
+                              textoLongo={`Foi professor do PROPAD/UFPE, sendo Coordenador do Núcleo de Estudos em Finanças e Investimentos (NEFI/UFPE), onde orientou alunos de Mestrado e Doutorado. Foi coordenador do curso de Administração, da mesma Universidade, entre os anos de 2008 e 2012. Foi Reitor do Centro Universitário dos Guararapes (UNIFG) e Diretor Acadêmico Regional da Rede Laureate, para o Estado de Pernambuco e Paraíba, sendo responsável pela UNIFG, FG Recife, FPB e Cedepe. Também foi Professor Titular da UniFG e membro do Programa de Mestrado Profissional em Inovação e Desenvolvimento. Foi Vice-Presidente do Grupo Diario de Pernambuco/Clube. É comentarista da Rádio CBN/Recife e da Rádio Nova Brasil FM, na área de inovação. Foi também comentarista econômico da CBN/Recife e foi também comentarista econômico da TV/Jornal/SBT como colaborador voluntário. Foi Visiting Scholar na Universidade do Minho, como bolsista do Programa Erasmus Mundus, no ano de 2010. Foi editor do blog Acerto de Contas (2007-2013) e comandou um programa de debates na Rádio Olinda, chamado Acerto de Contas, também como voluntário. Tem experiência na área de Finanças, atuando principalmente nos seguintes temas: eficiência de mercado, anomalias de mercado e testes empíricos na Bovespa, além de coordenador de pesquisas na área de financiamento imobiliário e compra de imóveis.`} />
+                            <div className='mt-10 min-w-fit'>
+                                <Imagem imagem={"/cbgdp2023/Pierre.jpeg"} descricao={"Prof. Dr. Pierre Lucena Raboni"} />
+                            </div>
+                        </div>
+
+                        <div className='grid  md:flex md:space-x-10'>
+                            <div className='mt-10 min-w-fit'>
+                                <Imagem imagem={"/cbgdp2023/Marly.jpeg"} descricao={"Prof. Dr. Marly Monteiro de Carvalho"} />
+                            </div>
+                            <VerMais textoCurto={`Marly Monteiro de Carvalho é Professora Titular e chefe do Departamento de Engenharia de Produção da Universidade de São Paulo (USP). Coordena o Laboratório de Gerenciamento de Projetos (LGP USP), o MBA em Gerenciamento de Projetos (CEGP USP/FCAV) e o grupo de pesquisa QEP-Qualidade e Engenharia de Produto do CNPq. É mestre e doutora em Engenharia de Produção pela Universidade de São Paulo. Possui graduação na mesma área pela Universidade Federal de Santa Catarina e Pós-Doutorado no Politecnico di Milano. É editora de área da Technovation (área Business Model Innovation for Sustainability) e editora de departamento do Project Management Journal.`}
+                              textoLongo={`É membro do conselho editorial do Journal of Manufacturing Technology Management, Journal of Modern Project Management e PM World Journal. É membro da Academia Nacional de Engenharia (ANE). Participa do Comitê Consultivo da cadeira de pesquisa em gerenciamento de projetos aeronáuticos na Universidade de Quebec a Trois Rivières, Canadá. Publicou 12 livros e muitos artigos em periódicos importantes, como Technological Forecasting and Social Change, International Journal of Project Management, International Journal of Production Research, International Journal of Operations & Production Management, Business Strategy and the environment e Journal of Cleaner Production. Tem coordenado projetos patrocinados por diversos fundos, como CNPq, CAPES, FAPESP e Newton Fund. Parcerias acadêmicas (projetos, artigos em coautoria e/ou intercâmbio de alunos) com a University of Cambridge (Reino Unido), Aston University (Reino Unido), University of Surrey (Reino Unido), University of York (Reino Unido), Copenhagen Business School ( Dinamarca), Universidade Técnica da Dinamarca (DTU- Dinamarca), Universidade de Quebec (Canadá). Visão geral da citação: Web of Science (h-index: 26), Scopus (h-index: 29), Google Scholar (h-index: 57), ResearchGate (h-index: 41). Foi membro do comitê de Engenharia da Capes III e da diretoria da ABEPRO (vice-presidente e diretor técnico).`} />
                         </div>
                     </div>
 
