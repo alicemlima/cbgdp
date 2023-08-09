@@ -19,19 +19,29 @@ export default function submissoes() {
             <TitlePage>Submissões</TitlePage>
             <div className="w-full space-y-5 text-pallete-white px-4 md:px-16 xl:px-28 2xl:px-64 pb-10 flex flex-wrap flex-col content-start ">
                 <div className='w-full'>
+                <Subtitle>Datas importantes</Subtitle>
+                <div className="grid md:grid-cols-6 items-center gap-x-4">
+                    <div className='md:col-span-4'>
+                        <BodyEmphasys>05/06/23 – Início da submissão dos artigos / trabalhos técnicos</BodyEmphasys> 
+                        <BodyEmphasys>08/09/23 – Prazo final para submissão</BodyEmphasys> 
+                        <BodyEmphasys>13/10/23 – Data limite para a resposta de aceitação do trabalho</BodyEmphasys> 
+                    </div>
+                    <div className='md:col-span-2 md:grid md:gap-y-6 flex space-x-5 mt-10 justify-items-end'>
+                        <a href={"/cbgdp2023/modelo-artigo-cbgdp.docx"} className="h-fit w-full flex bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-whitehover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center text-base font-black cursor-pointer">
+                            CBGDP2023 Modelo de artigo <AiOutlineDownload className='ml-3' size={30}/>
+                        </a> 
+                        <a href={"https://www.even3.com.br/participante/trabalhocientifico/"} className="h-fit w-full bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center text-base font-black cursor-pointer">
+                            Submeter Artigo
+                        </a> 
+                        
+                    </div>
+                </div>
                     <Subtitle >Temas</Subtitle>
-                   
-                        <div className="grid md:grid-cols-4 items-center justify-items-center gap-x-4">
-                            <div className='md:col-span-3'>
                             <BodyText>Estamos entusiasmados em anunciar a abertura da chamada de artigos científicos e trabalhos técnicos sobre os temas de inovação e gestão do desenvolvimento de produtos.</BodyText>
                             <BodyText>Convidamos empresas e pesquisadores a compartilharem suas descobertas, experiências e melhores práticas nesse importante campo que está em constante evolução. Este é o momento ideal para apresentar suas pesquisas e insights sobre estratégias inovadoras, processos de desenvolvimento de produtos, adoção de tecnologias emergentes, tendências de mercado e muito mais.</BodyText>
                             <BodyText>Aproveite essa oportunidade para contribuir com o avanço do conhecimento e fazer parte de uma comunidade dedicada à inovação. Todos os artigos e trabalhos técnicos submetidos serão avaliados pelo comitê científico do 14º CBGDP.</BodyText>
 
-                            </div>
-                            <a href={"https://www.even3.com.br/participante/trabalhocientifico/"} className="h-fit bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">
-                                Submeter Artigo
-                            </a> 
-                        </div>
+                            
                     <BodyEmphasys>A seguir são enumerados os grandes temas do CBGDP 2023 para submissão dos trabalhos:</BodyEmphasys>
                     <div className="grid gap-5 xl:mt-10 xl:gap-8">
                        
@@ -45,10 +55,10 @@ export default function submissoes() {
                     <BodyText>Todos os trabalhos aprovados pelo comitê científico serão publicados nos anais.</BodyText>
                     <BodyText>Abaixo está disponibilizado o modelo para a submissão de artigos científicos e trabalhos técnicos. Com o artigo pronto, clique no botão acima “Submeter artigo”. Ao fazer isso, você será redirecionado para a página do evento na plataforma Even3, onde será guiado nos passos da submissão. Aproveite essa oportunidade para compartilhar seus conhecimentos e contribuir para o avanço da área.</BodyText>
                     <div className='flex justify-center space-x-5 mt-10'>
-                        <a href={"/cbgdp2023/modelo-artigo-cbgdp.docx"} className="h-fit w-fit flex bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base">
+                        <a href={"/cbgdp2023/modelo-artigo-cbgdp.docx"} className="h-fit w-fit flex bg-pallete-blue hover:bg-pallete-white hover:text-pallete-blue text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center font-black text-base">
                         CBGDP2023 Modelo de artigo <AiOutlineDownload className='ml-3' size={30}/>
                         </a> 
-                        <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base cursor-pointer">
+                        <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="bg-pallete-orange hover:bg-pallete-white hover:text-pallete-orange text-pallete-white hover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-center text-base font-black cursor-pointer">
                             Realizar Inscrição
                         </a>
                     </div>
@@ -68,15 +78,7 @@ export default function submissoes() {
                     <BodyText>Os três melhores trabalhos de cada uma das 4 temáticas do CBGDP2023 serão premiados com um certificado de &quot;Menção Honrosa&quot;.</BodyText>
 
                 </div>
-                
-                <div>
-                    <Subtitle>Datas importantes</Subtitle>
-                    <BodyEmphasys>05/06/23 – Início da submissão dos artigos / trabalhos técnicos</BodyEmphasys> 
-                    <BodyEmphasys>07/08/23 – Prazo final para submissão</BodyEmphasys> 
-                    <BodyEmphasys>13/10/23 – Data limite para a resposta de aceitação do trabalho</BodyEmphasys> 
-
-
-                </div>
+            
             </div>
             
         </main>
