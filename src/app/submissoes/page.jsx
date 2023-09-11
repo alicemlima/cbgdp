@@ -23,7 +23,7 @@ export default function submissoes() {
                 <div className="grid md:grid-cols-6 items-center gap-x-4">
                     <div className='md:col-span-4'>
                         <BodyEmphasys>05/06/23 – Início da submissão dos artigos / trabalhos técnicos</BodyEmphasys> 
-                        <BodyEmphasys>08/09/23 – Prazo final para submissão</BodyEmphasys> 
+                        <BodyEmphasys>17/09/23 – Prazo final para submissão</BodyEmphasys> 
                         <BodyEmphasys>13/10/23 – Data limite para a resposta de aceitação do trabalho</BodyEmphasys> 
                     </div>
                     <div className='md:col-span-2 md:grid md:gap-y-6 flex space-x-5 mt-10 justify-items-end'>
