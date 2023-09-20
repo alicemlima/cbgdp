@@ -1,6 +1,7 @@
 import TitlePage from "@/src/components/TitlePage";
 import Subtitle from "@/src/components/Subtitle"
 import BodyText from "@/src/components/BodyText";
+import BodyEmphasis from "@/src/components/BodyEmphasys";
 
 export default function institucional() {
     return (
@@ -26,49 +27,59 @@ export default function institucional() {
                         relacionados ao desenvolvimento de produtos no Brasil. Além disso, o evento contribui para fortalecer o networking entre empresas e consultorias, 
                         bem como aprofundar a colaboração entre grupos de pesquisa sobre inovação tecnológica no país.</BodyText>
 
-                </div>
+                </div> 
 
-                <div className="grid md:grid-cols-2 md:gap-5">
-                    <div>
-                        <Subtitle>Organização</Subtitle>
-                        <div className="flex items-center">
-                            <a href="https://ufrn.br/">
-                            <img className="max-w-[60%]" src={"/cbgdp2023/ufrn-logo.png"} alt="" /></a>
-                            <a href="https://www.igdp.org.br/">
-                            <img  className="max-w-[70%]" src={"/cbgdp2023/igdp-logo.png"} alt="" /></a>
-                        </div>
+                <div>
+                    <Subtitle>Organização</Subtitle>
+                    <div className="flex items-center">
+                        <a href="https://ufrn.br/">
+                        <img className="max-w-[40%]" src={"/cbgdp2023/ufrn-logo.png"} alt="" /></a>
+                        <a href="https://www.igdp.org.br/">
+                        <img  className="max-w-[50%]" src={"/cbgdp2023/igdp-logo.png"} alt="" /></a>
                     </div>
-                    <div>
-                        <Subtitle>Apoio</Subtitle>
-                        <div className="flex items-center">
-                            <a href="https://ufrn.br/">
-                            <img className="max-w-[90%]" src={"/cbgdp2023/fiern-logo.png"} alt="" /></a>
-                            <a href="https://www.igdp.org.br/">
-                            <img src={"/cbgdp2023/imd-logo.png"} alt="" /></a>
-                            <a href="https://www.igdp.org.br/">
-                            <img src={"/cbgdp2023/senai-logo.png"} alt="" /></a>
-                            <a href="https://parquemetropole.imd.ufrn.br/parque/">
-                            <img src={"/cbgdp2023/parque.jpg"} alt="" /></a>
-                        </div>
+                </div>
+                <div>
+                    <Subtitle>Patrocínio</Subtitle>
+                    <div className="grid grid-cols-5 justify-items-center space-x-5 place-items-center">
+                        <img  src={"/cbgdp2023/patrocinio/capes.jpeg"} alt="" />
+                        <img src={"/cbgdp2023/patrocinio/metropole-parque.png"} alt="" />
+                        <img className={" max-h-[150px]"}  src={"/cbgdp2023/patrocinio/mudra.png"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/produmar.jpeg"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/i2.svg"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/coxinha.jpeg"} alt="" />
+                        <img  src={"/cbgdp2023/patrocinio/doisA.jpeg"} alt="" />
+                    </div>
+                </div>
+                <div>
+                    <Subtitle>Apoio</Subtitle>
+                    <div className="grid grid-cols-5 justify-items-center space-x-5 place-items-center">
+                        <img  src={"/cbgdp2023/apoio/UFU.jpg"} alt="" />
+                        <img src={"/cbgdp2023/apoio/UFMG.png"} alt="" />
+                        <img className={" max-h-[150px]"}  src={"/cbgdp2023/apoio/UNESPAR.jpg"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/puc-pr.jpg"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/usp.png"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/metropole-parque.png"} alt="" />
+                        <img  src={"/cbgdp2023/apoio/fiern-logo.png"} alt="" />
+                        <img  src={"/cbgdp2023/apoio/senai-logo.png"} alt="" />
                     </div>
                 </div>
                 
                 <Subtitle>Comitê</Subtitle>
                 <div className="text-base md:text-lg grid grid-cols-2 gap-5 ">
                     <div >
-                        <h2 className="text-lg md:text-xl ">Coordenação Geral</h2>
-                        <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
-                        <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>
+                        <BodyEmphasis className="text-lg md:text-xl ">Coordenação Geral</BodyEmphasis>
+                        <li>Prof. Dr. Wesley Canedo de Souza Junior - Coordenador (UFRN)</li>
+                        <li>Prof. Dr. Luís Fernando Magnanini - Subcoordenador (UFU)</li>
                     </div>
                     
                     
                     <div>
-                        <h2 className="text-xlgl md:text-xl ">Comitê administrativo</h2>
+                        <BodyEmphasis className="text-xlgl md:text-xl ">Comitê administrativo</BodyEmphasis>
                         <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
                     </div>
 
                     <div>
-                        <h2 className="text-lg md:text-xl ">Comitê de programação</h2>
+                        <BodyEmphasis className="text-lg md:text-xl ">Comitê de programação</BodyEmphasis>
                         <li>Prof. Dr. Guilherme Brittes Benitez (PUCPR)</li>
                         <li>Prof. Dr. Fernando Henrique Lermen (Universidade Estadual do Paraná)</li>
                         <li>Prof. Dr. Luís Fernando Magnanini de Almeida (UFU)</li>
@@ -78,22 +89,43 @@ export default function institucional() {
                     </div>
 
                     <div>
-                        <h2 className="text-lg md:text-xl">Comitê científico</h2>
-                        <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>
-                        <li>Prof. Dr. Raoni Barros Bagno (UFMG)</li>
-                        <li>Prof. Dr. Daniel Capaldo Amaral (USP)</li>
-                        <li>Prof. Dr. Diego De Castro Fettermann (UFSC)</li>
-                        <li>Prof. Dr. Fernando Henrique Lermen (Universidade Estadual do Paraná)</li>
-                        <li>Prof. Dr. Glauco Henrique De Sousa Mendes (UFSCar)</li>
-                        <li>Prof. Dr. Guilherme Brittes Benitez (PUC-PR)</li>
-                        <li>Prof. Dr. Hugo Jose Ribeiro Junior (UNIFEI)</li>
-                        <li>Profa. Dra. Istefani Carisio de Paula (UFRGS)</li>
-                        <li>Prof. Dr. Maicon Gouvea de Oliveira (USP)</li>
-                        <li>Prof. Dr. Mario Orestes Aguirre Gonzalez (UFRN)</li>
-                        <li>Prof. Dr. Matheus Luiz Pontelo de Souza (PUC-MG)</li>
-                        <li>Prof. Dr. Milton Borsato (UFPR)</li>
-                        <li>Profa. Dra. Cynara Mendonça Moreira Tinoco (UFG)</li>
-                        <li>Profa. Dra. Sania Da Costa Fernandes (Universidade Presbiteriana Mackenzie)</li>
+                        <BodyEmphasis className="text-lg md:text-xl">Comitê científico</BodyEmphasis>
+                       
+                            <li>Prof. Dr. Luís Fernando Magnanini (UFU)</li>
+                            <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
+                            <li>Dr. Antonio Álvaro de Assis Moura (Mackenzie)</li>
+                            <li>Dra. Aline Sacchi Homrich (USP)</li>
+                            <li>Dra. Graziela Darla Araújo Galvao (USP)</li>
+                            <li>Lorene Thalia Pontes Miranda (PUCPR)</li>
+                            <li>MSc. Ana Carolina Cintra Faria (UNB)</li>
+                            <li>MSc. Diego Cesar Florencio de Queiroz (UNB)</li>
+                            <li>MSc. Fabíola Renata Alves Roberto (PUCPR)</li>
+                            <li>MSc. Josivan Leite (USP)</li>
+                            <li>Prof. Dr. Daniel Capaldo Amaral (USP)</li>
+                            <li>Prof. Dr. Daniel Jugend (UNESP)</li>
+                            <li>Prof. Dr. Diego De Castro Fettermann (UFSC)</li>
+                            <li>Prof. Dr. Fernando Henrique Lermen (UNESPAR)</li>
+                            <li>Prof. Dr. Glauco Henrique De Sousa Mendes (UFSCar)</li>
+                            <li>Prof. Dr. Guilherme Brittes Benitez (PUC-PR)</li>
+                            <li>Prof. Dr. Hugo Jose Ribeiro Junior (UNIFEI)</li>
+                            <li>Prof. Dr. João Luís Guilherme Benassi (IFSP)</li>
+                            <li>Prof. Dr. Maicon Gouvea de Oliveira (USP)</li>
+                            <li>Prof. Dr. Mario Orestes Aguirre Gonzalez (UFRN)</li>
+                            <li>Prof. Dr. Matheus Luiz Pontelo de Souza (PUC-MG)</li>
+                            <li>Prof. Dr. Mauro Caetano de Souza (ITA)</li>
+                            <li>Prof. Dr. Milton Borsato (UFPR)</li>
+                            <li>Prof. Dr. Raoni Barros Bagno (UFMG)</li>
+                            <li>Prof. Dr. Ricardo Marques Sastre (UFRGS)</li>
+                            <li>Prof. Dr. Sanderson Cesar Macedo Barbalho (UNB)</li>
+                            <li>Profa. Dra. Camila de Araújo (UFU)</li>
+                            <li>Profa. Dra. Cynara Mendonça Moreira Tinoco (UFG)</li>
+                            <li>Profa. Dra. Istefani Carisio de Paula (UFRGS)</li>
+                            <li>Profa. Dra. Istefani Carísio de Paula (UFRGS)</li>
+                            <li>Profa. Dra. Jussara Goulart da Silva (UFU)</li>
+                            <li>Profa. Dra. Kerlla de Souza Luz (UNB)</li>
+                            <li>Profa. Dra. Mara Rúbia da Silva Miranda (UFU)</li>
+                            <li>Profa. Dra. Sania Da Costa Fernandes (Universidade Presbiteriana Mackenzie)</li>
+
                     </div>
                 </div> 
             </div>

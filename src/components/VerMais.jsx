@@ -21,7 +21,7 @@ class VerMais extends React.Component {
       const buttonText = showFullText ? 'Ver Menos' : 'Ver Mais';
   
       return (
-        <div className={"md:w-2/3 mt-14"}>
+        <div className={"mt-5"}>
            <div className='text-justify lg:mb-0 text-base xl:text-lg text-pallete-medium-dark'>{textoCurto }</div>
           {showFullText ? (
             <div className='text-justify lg:mb-0 text-base xl:text-lg text-pallete-medium-dark'>{textoLongo}</div>

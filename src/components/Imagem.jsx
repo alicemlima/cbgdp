@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import BodyEmphasys from './BodyEmphasys';
 
 const Imagem = ({imagem, descricao}) => {
   return (
@@ -10,7 +11,7 @@ const Imagem = ({imagem, descricao}) => {
           src={imagem}
           alt={descricao} />
       </div>
-      <p className='font-medium'>{descricao}</p>
+      <BodyEmphasys>{descricao}</BodyEmphasys>
     </div>
   );
 };

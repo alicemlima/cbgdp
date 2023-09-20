@@ -11,8 +11,8 @@ export default function Banner() {
                         </p>
                     </div>
                     <div className="text-pallete-white text-base md:text-xl my-10 xl:justify-self-end 2xl:justify-self-center" >
-                        <div className=" my-5 absolut rounded-md bg-pallete-orange w-fit h-12">
-                            <div className=" flex items-center px-3 relative rounded-md left-2 top-2 bg-pallete-white text-pallete-orange font-black h-12" >Últimos dia para Submissão dos artigos / trabalhos técnicos</div>
+                        <div className=" my-5 absolut rounded-md bg-pallete-orange w-fit h-fit">
+                            <div className=" flex items-center px-2 py-3 relative rounded-md left-2 top-2 bg-pallete-white text-pallete-orange font-black h-fit" >Últimos dias para submissão dos artigos / trabalhos técnicos: término em 17/09/23</div>
                         </div>
                         <h4 className="font-bold">22 a 25 de novembro de 2023</h4>
                         <h4 className="font-thin mb-5 text-pallete-orange">Natal, Rio Grande do Norte</h4>
