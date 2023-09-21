@@ -56,16 +56,18 @@ export default function Programacao () {
                               e na transformação dos modelos de negócios. CV completo (inglês): www.ufrgs.br/neo/frank`} />
                         </div>
 
-                        <div className='grid  md:flex md:space-x-10'>
-                            
-                            <VerMais textoCurto={`Pierre Lucena Raboni é doutor em Administração pela Pontifícia Universidade Católica do Rio de Janeiro (2005), Mestre em Economia pela Universidade Federal de Pernambuco e Graduado em Administração pela Universidade Federal de Pernambuco (2000 e 1994). Presidente do Porto Digital, um dos principais ambientes de inovação do Brasil, com mais de 17 mil colaboradores e 365 empresas. Também é professor da Universidade Federal de Pernambuco em regime de 20 horas.`}
-                              textoLongo={`Foi professor do PROPAD/UFPE, sendo Coordenador do Núcleo de Estudos em Finanças e Investimentos (NEFI/UFPE), onde orientou alunos de Mestrado e Doutorado. Foi coordenador do curso de Administração, da mesma Universidade, entre os anos de 2008 e 2012. Foi Reitor do Centro Universitário dos Guararapes (UNIFG) e Diretor Acadêmico Regional da Rede Laureate, para o Estado de Pernambuco e Paraíba, sendo responsável pela UNIFG, FG Recife, FPB e Cedepe. Também foi Professor Titular da UniFG e membro do Programa de Mestrado Profissional em Inovação e Desenvolvimento. Foi Vice-Presidente do Grupo Diario de Pernambuco/Clube. É comentarista da Rádio CBN/Recife e da Rádio Nova Brasil FM, na área de inovação. Foi também comentarista econômico da CBN/Recife e foi também comentarista econômico da TV/Jornal/SBT como colaborador voluntário. Foi Visiting Scholar na Universidade do Minho, como bolsista do Programa Erasmus Mundus, no ano de 2010. Foi editor do blog Acerto de Contas (2007-2013) e comandou um programa de debates na Rádio Olinda, chamado Acerto de Contas, também como voluntário. Tem experiência na área de Finanças, atuando principalmente nos seguintes temas: eficiência de mercado, anomalias de mercado e testes empíricos na Bovespa, além de coordenador de pesquisas na área de financiamento imobiliário e compra de imóveis.`} />
-                            <div className='mt-10 min-w-fit'>
+                        <div className='grid md:flex'>
+                            <div className='mt-10 min-w-fit md:order-2 md:ml-5'>
                                 <Imagem imagem={"/cbgdp2023/pierre.jpeg"} descricao={"Prof. Dr. Pierre Lucena Raboni"} />
                             </div>
+                            <VerMais
+                                textoCurto={`Pierre Lucena Raboni é doutor em Administração pela Pontifícia Universidade Católica do Rio de Janeiro (2005), Mestre em Economia pela Universidade Federal de Pernambuco e Graduado em Administração pela Universidade Federal de Pernambuco (2000 e 1994). Presidente do Porto Digital, um dos principais ambientes de inovação do Brasil, com mais de 17 mil colaboradores e 365 empresas. Também é professor da Universidade Federal de Pernambuco em regime de 20 horas.`}
+                                textoLongo={`Foi professor do PROPAD/UFPE, sendo Coordenador do Núcleo de Estudos em Finanças e Investimentos (NEFI/UFPE), onde orientou alunos de Mestrado e Doutorado. Foi coordenador do curso de Administração, da mesma Universidade, entre os anos de 2008 e 2012. Foi Reitor do Centro Universitário dos Guararapes (UNIFG) e Diretor Acadêmico Regional da Rede Laureate, para o Estado de Pernambuco e Paraíba, sendo responsável pela UNIFG, FG Recife, FPB e Cedepe. Também foi Professor Titular da UniFG e membro do Programa de Mestrado Profissional em Inovação e Desenvolvimento. Foi Vice-Presidente do Grupo Diario de Pernambuco/Clube. É comentarista da Rádio CBN/Recife e da Rádio Nova Brasil FM, na área de inovação. Foi também comentarista econômico da CBN/Recife e foi também comentarista econômico da TV/Jornal/SBT como colaborador voluntário. Foi Visiting Scholar na Universidade do Minho, como bolsista do Programa Erasmus Mundus, no ano de 2010. Foi editor do blog Acerto de Contas (2007-2013) e comandou um programa de debates na Rádio Olinda, chamado Acerto de Contas, também como voluntário. Tem experiência na área de Finanças, atuando principalmente nos seguintes temas: eficiência de mercado, anomalias de mercado e testes empíricos na Bovespa, além de coordenador de pesquisas na área de financiamento imobiliário e compra de imóveis.`}
+                            />
                         </div>
 
-                        <div className='grid  md:flex md:space-x-10'>
+
+                        <div className='grid md:flex md:space-x-10'>
                             <div className='mt-10 min-w-fit'>
                                 <Imagem imagem={"/cbgdp2023/marly.jpeg"} descricao={"Profa. Dra. Marly Monteiro de Carvalho"} />
                             </div>
@@ -81,7 +83,7 @@ export default function Programacao () {
                             aprendizado e networking.</BodyText>
                         
                         <BodyEmphasys fontSize={"text-2xl"}>Ecossistemas empreendedores (22/11)</BodyEmphasys>
-                        <div className='  md:grid md:grid-cols-2 space-x-10'>
+                        <div className='  md:grid md:grid-cols-2'>
                             <div className='grid'>
                                 <div className='mt-5 min-w-fit'>
                                     <Imagem imagem={"/cbgdp2023/rodrigo.jpeg"} descricao={"MSc. Rodrigo Romão (Diretor do Metrópole Parque-UFRN)."} />
@@ -89,7 +91,7 @@ export default function Programacao () {
                                 <VerMais textoCurto={`Administrador especialista em Gestão de Projetos (PUC-Minas), mestre em Gestão da Informação e do Conhecimento e doutorando em Administração (UFRN).`}
                                 textoLongo={`Atua nos segmentos industriais de saúde e mineração entre 2005-2015 e, desde 2016, trabalha na gestão de ambientes de empreendedorismo e inovação, onde também é pesquisador. Atua com Empreendedorismo, Gestão da Inovação, Gestão do Conhecimento, Metodologias Ágeis e Lean, Design Thinking e Processo Criativo aplicado ao Aprendizado.`} />
                             </div>
-                            <div className='grid'>
+                            <div className='grid md:ml-10'>
                                 <div className='mt-5 min-w-fit'>
                                     <Imagem imagem={"/cbgdp2023/jefferson.jpeg"} descricao={"MSc. Jefferson Oliveira (AGIR-UFRN)."} />
                                 </div>
@@ -103,69 +105,88 @@ export default function Programacao () {
                                 <VerMais textoCurto={`CEO da AVATI, empreendedor com mais de 15 anos de experiência em startups Destaca-se pelos casos de sucesso 'Incentiv.me', 'Meetz' e 'Local Pros'.`}
                                 textoLongo={`Além disso, possui mestrado em Robótica e IA pela UFPB e participou do programa Ciência sem Fronteiras na TUM – Technical University of Munich, na Alemanha. É professor convidado do MBA em Gestão e Inovação da UFRN.`} />
                             </div>
-                            <div className='grid'>
+                            <div className='grid md:ml-10'>
                                 <div className='mt-5 min-w-fit'>
                                     <Imagem imagem={"/cbgdp2023/pierre.jpeg"} descricao={"Prof. Dr. Pierre Lucena Raboni "} />
+                                    </div>
+                                    <VerMais textoCurto={`É doutor em Administração pela PUC-Rio (2005) e mestre em Economia pela UFPE, com graduação em Administração pela mesma instituição.`}
+                                textoLongo={`Preside o Porto Digital, um importante hub de inovação no Brasil, com 17 mil colaboradores e 365 empresas. Também é professor na UFPE em meio período e já coordenou o PROPAD/UFPE. Raboni foi Reitor da UNIFG e Diretor Acadêmico Regional da Rede Laureate em Pernambuco e Paraíba, além de ser comentarista de inovação na Rádio CBN/Recife e na Rádio Nova Brasil FM.`} />
+                                
+                            </div>
+                            <div className='grid '>
+                                <BodyEmphasys>Prof. Dra. Adriana Faria (UFV)</BodyEmphasys>
+                            <VerMais textoCurto={`Graduada em Engenharia Química pela Universidade Federal de Uberlândia, com mestrado e doutorado em Engenharia Mecânica. Pós-doutorado em Gestão da Inovação pela Universidade Estadual da Carolina do Norte, EUA.`}
+                                textoLongo={`Desde 2007, é professora na Universidade Federal de Viçosa e atualmente diretora executiva do Centro Tecnológico de Desenvolvimento Regional de Viçosa (CenTev), um órgão que abriga a Incubadora de Empresas e o Parque Tecnológico de Viçosa (tecnoPARQ). Também é diretora presidente da Rede de Inovação da Associação de Minas Gerais e coordenadora de políticas públicas na FAPEMIG. É pesquisadora em Inovação Tecnológica (UFMG) e Economia (UFV), além de coordenar um curso de pós-graduação em Gestão da Produção (UFV) e liderar um grupo de pesquisa em tecnologias de gestão (NTG).`} />
+                               
+                            </div>
+                        </div>
+
+                        <div className='mt-20'>
+                            <BodyEmphasys fontSize={"text-2xl"}>Transformação Digital (23/11)</BodyEmphasys>
+                        
+                            <div className=' md:grid md:grid-cols-2'>
+                                <div className='grid'>
+                                    <div className='mt-5 min-w-fit'>
+                                        <Imagem imagem={"/cbgdp2023/alejandro.jpeg"} descricao={"Prof. Dr. Alejandro Frank (UFRGS)"} />
+                                        <VerMais textoCurto={`Professor Adjunto do Departamento de Engenharia de Produção da Universidade Federal do Rio Grande do Sul (UFRGS).`}
+                                textoLongo={`É Diretor do Núcleo de Engenharia Organizacional/NEO da UFRGS, Editor do International Journal of Production Economics e Coordenador do curso de especialização em Indústria 4.0 e Transformação Digital da UFRGS. Possui Mestrado e Doutorado em Engenharia de Produção pela UFRGS, tendo sido pesquisador visitante no MIT e no Politecnico di Milano.`} />
+                                    </div>
+                                </div>
+                                <div className='grid md:ml-10'>
+                                    <div className='mt-5 min-w-fit'>
+                                        <Imagem imagem={"/cbgdp2023/wisley.jpeg"} descricao={"Wisley Moura (2A Engenharia)"} />
+                                        <VerMais textoCurto={`Analista de sistemas com pós-graduação em gestão de projetos e indústria 4.0, com ampla experiência em desenvolvimento de sistemas, análise de dados e sistemas tecnológicos embarcados.`}
+                                textoLongo={`Atualmente desempenha a função de Gerente de Tecnologia da Informação e é o responsável pela área de Inovação na Dois A Engenharia, uma empresa especializada em obras de infraestrutura urbana, viária e energias renováveis.`} />
+                                    </div>
+                                </div>
+                                <div className='grid'>
+                                    <div className='mt-5 min-w-fit'>
+                                        <Imagem imagem={"/cbgdp2023/pedro.jpeg"} descricao={"Pedro Gomide (i2)"} />
+                                    </div>
+                                    <VerMais textoCurto={`Profissional experiente na transformação digital, com destaque em startups e ambientes corporativos. Sua participação pioneira na adoção da computação em nuvem na indústria brasileira o diferencia.`}
+                                    textoLongo={`Com formação em Engenharia Eletricista e pós-graduações em inovação pela PUC-RS e MIT, atualmente é doutorando em Design pela IADE e integra o Strategic Design and Innovation – Lab, colaboração entre a IADE e o Politecnico di Milano.`} />
+                                </div>
+                                <div className='grid md:ml-10 justify-items-center content-center'>
+                                    <BodyEmphasys>Prof. Dr. Danilo Curvelo (UFRN)</BodyEmphasys>
+                                    <VerMais textoCurto={`Possui Doutorado em Engenharia Elétrica e de Computação pela Universidade Federal do Rio Grande do Norte (UFRN), na área de sistemas inteligentes aplicados à indústria de óleo e gás.`}
+                                    textoLongo={`Atualmente é professor do Instituto Metrópole Digital (IMD) da UFRN, tendo experiência na área de desenvolvimento de sistemas, redes de computadores, indústria 4.0 e tecnologia blockchain.`} />
+                                
                                 </div>
                             </div>
                         </div>
 
-                
-                        <BodyEmphasys fontSize={"text-2xl"}>Transformação Digital (23/11)</BodyEmphasys>
-                    
-                        <div className=' md:grid md:grid-cols-2 space-x-10'>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/alejandro.jpeg"} descricao={"Prof. Dr. Alejandro Frank (UFRGS)"} />
+                        <div className='mt-20'>
+                            <BodyEmphasys fontSize={"text-2xl"} >ESG e Economia Circular (24/11)</BodyEmphasys>
+                            <div className='md:grid md:grid-cols-2 '>
+                                <div className='grid'>
+                                    <div className='mt-5 min-w-fit'>
+                                        <Imagem imagem={"/cbgdp2023/marly.jpeg"} descricao={"Profa. Dra. Marly Monteiro (USP)"} />
+                                    </div>
+                                    <VerMais textoCurto={`É professora Titular e chefe do Departamento de Engenharia de Produção da USP, com extensa contribuição acadêmica.`}
+                                    textoLongo={`Lidera o Laboratório de Gerenciamento de Projetos (LGP USP), o MBA em Gerenciamento de Projetos (CEGP USP/FCAV) e o grupo de pesquisa QEP-Qualidade e Engenharia de Produto do CNPq. Com mestrado e doutorado em Engenharia de Produção pela USP, e pós-Doutorado no Politecnico di Milano, publicou 12 livros e diversos artigos em periódicos importantes. Mantém parcerias acadêmicas internacionais e exerceu papéis de liderança em comitês renomados, como a Capes III e a diretoria da ABEPRO.`} />
                                 </div>
-                            </div>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/wisley.jpeg"} descricao={"Wisley Moura (2A Engenharia)"} />
+                                <div className='grid md:ml-10'>
+                                    <div className='mt-5 min-w-fit'>
+                                        <Imagem imagem={"/cbgdp2023/ricardo.jpeg"} descricao={"Prof. Dr. Ricardo Sastre (MUDRA)"} />
+                                    </div>
+                                    <VerMais textoCurto={`Pós-Doutorando em Design na UFPR, com doutorado em Engenharia de Produção e mestrado em Design.`}
+                                    textoLongo={`Além disso, possui um MBA em gestão empresarial, pós-graduação em Expressão gráfica e bacharelado em Comunicação Social. Possui 27 anos de experiencia profissional, sendo 16 anos de empreendedorismo em uma indústria gráfica de embalagens. É também é professor desde 2009 e desempenha funções de diretor e pesquisador na Mudrá Design. Sua trajetória abrange uma ampla gama de conhecimentos e experiências na área.`} />
+                                
                                 </div>
-                            </div>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/pedro.jpeg"} descricao={"Pedro Gomide (i2)"} />
+                                <div className='grid'>
+                                    <div className='mt-5 min-w-fit'>
+                                        <Imagem imagem={"/cbgdp2023/rodrigo_diniz.jpeg"} descricao={"Rodrigo Diniz (SENAI)"} />
+                                    </div>
+                                    <VerMais textoCurto={`Possui graduação em Agronomia pela Universidade Federal Rural do Semi-Árido (1992). Atualmente é Diretor Regional do SENAI Rio Grande do Norte e do Instituto SENAI de Inovação em Energias Renováveis (ISI-ER).`}
+                                    textoLongo={`No qual lidera ações de inovação na área de energias renováveis, em especial hidrogênio verde, energia solar, energia fotovoltaica, e biocombustíveis. Tem fomentado o desenvolvimento de um ecossistema de inovação com foco em energias renováveis a partir da promoção de parcerias com grandes empresas e startups.`} />
                                 </div>
-                                <VerMais textoCurto={`Profissional experiente na transformação digital, com destaque em startups e ambientes corporativos. Sua participação pioneira na adoção da computação em nuvem na indústria brasileira o diferencia.`}
-                                textoLongo={`Com formação em Engenharia Eletricista e pós-graduações em inovação pela PUC-RS e MIT, atualmente é doutorando em Design pela IADE e integra o Strategic Design and Innovation – Lab, colaboração entre a IADE e o Politecnico di Milano.`} />
-                            </div>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/pierre.jpeg"} descricao={"Prof. Dr. Pierre Lucena Raboni "} />
-                                </div>
-                            </div>
-                        </div>
-
-                        <BodyEmphasys fontSize={"text-2xl"} >Transformação Digital (23/11)</BodyEmphasys>
-                        <div className='md:grid md:grid-cols-2 space-x-10'>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/marly.jpeg"} descricao={"Profa. Dra. Marly Monteiro (USP)"} />
-                                </div>
-                            </div>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/ricardo.jpeg"} descricao={"Prof. Dr. Ricardo Sastre (MUDRA)"} />
-                                </div>
-                                <VerMais textoCurto={`Pós-Doutorando em Design na UFPR, com doutorado em Engenharia de Produção e mestrado em Design.`}
-                                textoLongo={`Além disso, possui um MBA em gestão empresarial, pós-graduação em Expressão gráfica e bacharelado em Comunicação Social. Possui 27 anos de experiencia profissional, sendo 16 anos de empreendedorismo em uma indústria gráfica de embalagens. É também é professor desde 2009 e desempenha funções de diretor e pesquisador na Mudrá Design. Sua trajetória abrange uma ampla gama de conhecimentos e experiências na área.`} />
-                            
-                            </div>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/rodrigo_diniz.jpeg"} descricao={"Rodrigo Diniz (SENAI)"} />
-                                </div>
-                                <VerMais textoCurto={`Possui graduação em Agronomia pela Universidade Federal Rural do Semi-Árido (1992). Atualmente é Diretor Regional do SENAI Rio Grande do Norte e do Instituto SENAI de Inovação em Energias Renováveis (ISI-ER).`}
-                                textoLongo={`No qual lidera ações de inovação na área de energias renováveis, em especial hidrogênio verde, energia solar, energia fotovoltaica, e biocombustíveis. Tem fomentado o desenvolvimento de um ecossistema de inovação com foco em energias renováveis a partir da promoção de parcerias com grandes empresas e startups.`} />
-                            </div>
-                            <div className='grid'>
-                                <div className='mt-5 min-w-fit'>
-                                    <Imagem imagem={"/cbgdp2023/leonardo.jpeg"} descricao={"Prof. Dr. Leonardo Pivôtto Nicodemo (IFRN)"} />
-                                    <VerMais textoCurto={`Professor de ESG e Direito Ambiental no IFRN. Atua como Head de ESG e Inovação no Núcleo de Estudos em Direito, Desenvolvimento e Meio Ambiente (NEDMA/IFRN).`}
-                                textoLongo={`Possui mestrado em Engenharia de Produção e doutorado em Desenvolvimento e Meio Ambiente pela UFRN. É conhecido por criar o Índice de Sustentabilidade de Campos Petrolíferos (ISPETRO) e o Método Pivotto de Gestão de Projetos Exponenciais. Atualmente, é vice-coordenador da Especialização em Gestão Ambiental no IFRN – Campus Natal.`} />
-                            
+                                <div className='grid'>
+                                    <div className='mt-5 min-w-fit md:ml-10'>
+                                        <Imagem imagem={"/cbgdp2023/leonardo.jpeg"} descricao={"Prof. Dr. Leonardo Pivôtto Nicodemo (IFRN)"} />
+                                        <VerMais textoCurto={`Professor de ESG e Direito Ambiental no IFRN. Atua como Head de ESG e Inovação no Núcleo de Estudos em Direito, Desenvolvimento e Meio Ambiente (NEDMA/IFRN).`}
+                                    textoLongo={`Possui mestrado em Engenharia de Produção e doutorado em Desenvolvimento e Meio Ambiente pela UFRN. É conhecido por criar o Índice de Sustentabilidade de Campos Petrolíferos (ISPETRO) e o Método Pivotto de Gestão de Projetos Exponenciais. Atualmente, é vice-coordenador da Especialização em Gestão Ambiental no IFRN – Campus Natal.`} />
+                                
+                                    </div>
                                 </div>
                             </div>
                         </div>

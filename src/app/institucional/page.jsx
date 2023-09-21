@@ -31,9 +31,9 @@ export default function institucional() {
 
                 <div>
                     <Subtitle>Organização</Subtitle>
-                    <div className="flex items-center">
+                    <div className="grid grid-cols-5 justify-items-center space-x-5 place-items-center">
                         <a href="https://ufrn.br/">
-                        <img className="max-w-[40%]" src={"/cbgdp2023/ufrn-logo.png"} alt="" /></a>
+                        <img  src={"/cbgdp2023/ufrn-logo.png"} alt="" /></a>
                         <a href="https://www.igdp.org.br/">
                         <img  className="max-w-[50%]" src={"/cbgdp2023/igdp-logo.png"} alt="" /></a>
                     </div>
@@ -41,13 +41,13 @@ export default function institucional() {
                 <div>
                     <Subtitle>Patrocínio</Subtitle>
                     <div className="grid grid-cols-5 justify-items-center space-x-5 place-items-center">
-                        <img  src={"/cbgdp2023/patrocinio/capes.jpeg"} alt="" />
+                        <img  src={"/cbgdp2023/patrocinio/capes.png"} alt="" />
                         <img src={"/cbgdp2023/patrocinio/metropole-parque.png"} alt="" />
                         <img className={" max-h-[150px]"}  src={"/cbgdp2023/patrocinio/mudra.png"} alt="" />
-                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/produmar.jpeg"} alt="" />
-                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/i2.svg"} alt="" />
-                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/coxinha.jpeg"} alt="" />
-                        <img  src={"/cbgdp2023/patrocinio/doisA.jpeg"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/produmar.png"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/i2.png"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/coxinha.jpg"} alt="" />
+                        <img  src={"/cbgdp2023/patrocinio/doisA.png"} alt="" />
                     </div>
                 </div>
                 <div>
@@ -57,7 +57,9 @@ export default function institucional() {
                         <img src={"/cbgdp2023/apoio/UFMG.png"} alt="" />
                         <img className={" max-h-[150px]"}  src={"/cbgdp2023/apoio/UNESPAR.jpg"} alt="" />
                         <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/puc-pr.jpg"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/ufrgs.png"} alt="" />
                         <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/usp.png"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/UNIFEI.png"} alt="" />
                         <img className={" max-h-[150px]"} src={"/cbgdp2023/apoio/metropole-parque.png"} alt="" />
                         <img  src={"/cbgdp2023/apoio/fiern-logo.png"} alt="" />
                         <img  src={"/cbgdp2023/apoio/senai-logo.png"} alt="" />
