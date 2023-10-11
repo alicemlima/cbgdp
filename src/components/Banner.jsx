@@ -11,9 +11,7 @@ export default function Banner() {
                         </p>
                     </div>
                     <div className="text-pallete-white text-base md:text-xl my-10 xl:justify-self-end 2xl:justify-self-center" >
-                        <div className=" my-5 absolut rounded-md bg-pallete-orange w-fit h-fit">
-                            <div className=" flex items-center px-2 py-3 relative rounded-md left-2 top-2 bg-pallete-white text-pallete-orange font-black h-fit" >Últimos dias para submissão dos artigos / trabalhos técnicos: término em 17/09/23</div>
-                        </div>
+                        
                         <h4 className="font-bold">22 a 25 de novembro de 2023</h4>
                         <h4 className="font-thin mb-5 text-pallete-orange">Natal, Rio Grande do Norte</h4>
                         <a href={"https://www.even3.com.br/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="h-fit bg-pallete-orange hover:bg-pallete-blue hover:text-pallete-orange text-pallete-white hover:border-transparent hover:border rounded-lg max-w-sm p-3 shadow-lg text-center md:text-xl text-base font-black cursor-pointer">

@@ -1,7 +1,10 @@
 import React from 'react';
-import ButtonDefault from "@/src/components/ButtonDefault"
+import Subtitle from "@/src/components/Subtitle"
 import TitlePage from "@/src/components/TitlePage"
 import BodyText from '@/src/components/BodyText';
+import BodyEmphasis from '@/src/components/BodyEmphasys';
+import { AiOutlineDownload } from 'react-icons/ai';
+
 
 export default function inscricoes() {
     
@@ -65,6 +68,16 @@ export default function inscricoes() {
                 <BodyText>Cada inscrição garantirá acesso a todas as palestras, mesas redondas, sessões temáticas, minicursos (sujeitos à disponibilidade) 
                     e visitas técnicas (sujeitas à disponibilidade), além dos coffee breaks. Outras despesas não estão incluídas na inscrição, como almoços, 
                     hospedagens, programação cultural, etc.</BodyText>
+
+                <Subtitle>Inscrições via nota de empenho</Subtitle>
+                <BodyText>As inscrições para o 14º Congresso Brasileiro de Gestão e Desenvolvimento de Pessoas (CBGDP) estão disponíveis para os profissionais que estudam ou trabalham em órgãos públicos. Para se inscrever através de uma nota de empenho.</BodyText>
+                <BodyEmphasis>Envie os dados necessários para o e-mail cbgdp@igdp.org.br, conforme as informações especificadas no documento a abaixo</BodyEmphasis>
+                <a href={"/cbgdp2023/INSTRUCOES_NOTA_DE_EMPENHO.docx"} className="h-fit w-full flex justify-center items-center self-center bg-pallete-blue hover:bg-pallete-white text-pallete-white hover:text-pallete-blue text-pallete-whitehover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-base font-black cursor-pointer">
+                INSTRUÇÕES NOTA DE EMPENHO <AiOutlineDownload className='ml-3' size={30}/>
+                </a> 
+
+
+                <Subtitle>Publicação ou Trabalhos Técnicos</Subtitle>
                 <BodyText>Para aqueles que publicarem artigos ou trabalhos técnicos, há valores que devem ser pagos adicionalmente à inscrição. Estes serão 
                     pagos uma única vez, por artigo/trabalho técnico, independentemente do número de autores, segundo a tabela abaixo:</BodyText>
                     
@@ -102,7 +115,10 @@ export default function inscricoes() {
                         </tbody>
                     </table>
                 </div>
-                <BodyText>Ao clicar no link &quot;Realizar Inscrição&quot;, você será redirecionado para a página do evento na plataforma Even3. Basta seguir os passos e sua inscrição será realizada.</BodyText>
+                <BodyEmphasis>Teve um artigo aceito? Faça aqui o pamento da taxa.</BodyEmphasis>
+                <a href={"https://www.even3.com.br/store/14-congresso-brasileiro-de-inovacao-e-gestao-de-desenvolvimento-de-produto-350837"} className="h-fit w-full flex justify-center items-center self-center bg-pallete-blue hover:bg-pallete-white text-pallete-white hover:text-pallete-blue text-pallete-whitehover:border-transparent border rounded-lg max-w-sm p-3 shadow-lg text-base font-black cursor-pointer">
+                Publique seu Artigo
+                </a> 
                 <BodyText>Caso deseje obter desconto na inscrição do CBGDP2023, realize sua associação ao IGDP, estamos com condições especiais. Para conferir todos os benefícios do associado, acesse: <a className='text-pallete-blue font-bold' href='https://www.igdp.org.br/associacao/'>igdp.org.br/associacao</a></BodyText>
 
             </div>

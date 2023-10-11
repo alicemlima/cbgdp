@@ -43,11 +43,11 @@ export default function institucional() {
                     <div className="grid grid-cols-5 justify-items-center space-x-5 place-items-center">
                         <img  src={"/cbgdp2023/patrocinio/capes.png"} alt="" />
                         <img src={"/cbgdp2023/patrocinio/metropole-parque.png"} alt="" />
+                        <img  src={"/cbgdp2023/patrocinio/doisA.png"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/coxinha.jpg"} alt="" />
+                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/i2.png"} alt="" />
                         <img className={" max-h-[150px]"}  src={"/cbgdp2023/patrocinio/mudra.png"} alt="" />
                         <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/produmar.png"} alt="" />
-                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/i2.png"} alt="" />
-                        <img className={" max-h-[150px]"} src={"/cbgdp2023/patrocinio/coxinha.jpg"} alt="" />
-                        <img  src={"/cbgdp2023/patrocinio/doisA.png"} alt="" />
                     </div>
                 </div>
                 <div>
@@ -82,10 +82,10 @@ export default function institucional() {
 
                     <div>
                         <BodyEmphasis className="text-lg md:text-xl ">Comitê de programação</BodyEmphasis>
-                        <li>Prof. Dr. Guilherme Brittes Benitez (PUCPR)</li>
-                        <li>Prof. Dr. Fernando Henrique Lermen (Universidade Estadual do Paraná)</li>
-                        <li>Prof. Dr. Luís Fernando Magnanini de Almeida (UFU)</li>
                         <li>Prof. Dr. Wesley Canedo de Souza Junior (UFRN)</li>
+                        <li>Prof. Dr. Luís Fernando Magnanini de Almeida (UFU)</li>
+                        <li>Prof. Dr. Fernando Henrique Lermen (Universidade Estadual do Paraná)</li>
+                        <li>Prof. Dr. Guilherme Brittes Benitez (PUCPR)</li>
                         <li>Prof. Dr. Raoni Barros Bagno (UFMG)</li>
                         <li>Prof. Dr. Daniel Jugend</li>
                     </div>

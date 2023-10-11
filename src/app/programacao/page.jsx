@@ -114,7 +114,9 @@ export default function Programacao () {
                                 
                             </div>
                             <div className='grid '>
-                                <BodyEmphasys>Prof. Dra. Adriana Faria (UFV)</BodyEmphasys>
+                            <div className='mt-5 min-w-fit'>
+                                    <Imagem imagem={"/cbgdp2023/adriana.jpeg"} descricao={"Prof. Dra. Adriana Faria (UFV)"} />
+                                    </div>
                             <VerMais textoCurto={`Graduada em Engenharia Química pela Universidade Federal de Uberlândia, com mestrado e doutorado em Engenharia Mecânica. Pós-doutorado em Gestão da Inovação pela Universidade Estadual da Carolina do Norte, EUA.`}
                                 textoLongo={`Desde 2007, é professora na Universidade Federal de Viçosa e atualmente diretora executiva do Centro Tecnológico de Desenvolvimento Regional de Viçosa (CenTev), um órgão que abriga a Incubadora de Empresas e o Parque Tecnológico de Viçosa (tecnoPARQ). Também é diretora presidente da Rede de Inovação da Associação de Minas Gerais e coordenadora de políticas públicas na FAPEMIG. É pesquisadora em Inovação Tecnológica (UFMG) e Economia (UFV), além de coordenar um curso de pós-graduação em Gestão da Produção (UFV) e liderar um grupo de pesquisa em tecnologias de gestão (NTG).`} />
                                
@@ -134,7 +136,7 @@ export default function Programacao () {
                                 </div>
                                 <div className='grid md:ml-10'>
                                     <div className='mt-5 min-w-fit'>
-                                        <Imagem imagem={"/cbgdp2023/wisley.jpeg"} descricao={"Wisley Moura (2A Engenharia)"} />
+                                        <Imagem imagem={"/cbgdp2023/wisley.jpeg"} descricao={"Wisley Moura (DOIS A Engenharia)"} />
                                         <VerMais textoCurto={`Analista de sistemas com pós-graduação em gestão de projetos e indústria 4.0, com ampla experiência em desenvolvimento de sistemas, análise de dados e sistemas tecnológicos embarcados.`}
                                 textoLongo={`Atualmente desempenha a função de Gerente de Tecnologia da Informação e é o responsável pela área de Inovação na Dois A Engenharia, uma empresa especializada em obras de infraestrutura urbana, viária e energias renováveis.`} />
                                     </div>
@@ -147,8 +149,9 @@ export default function Programacao () {
                                     textoLongo={`Com formação em Engenharia Eletricista e pós-graduações em inovação pela PUC-RS e MIT, atualmente é doutorando em Design pela IADE e integra o Strategic Design and Innovation – Lab, colaboração entre a IADE e o Politecnico di Milano.`} />
                                 </div>
                                 <div className='grid md:ml-10 justify-items-center content-center'>
-                                    <BodyEmphasys>Prof. Dr. Danilo Curvelo (UFRN)</BodyEmphasys>
-                                    <VerMais textoCurto={`Possui Doutorado em Engenharia Elétrica e de Computação pela Universidade Federal do Rio Grande do Norte (UFRN), na área de sistemas inteligentes aplicados à indústria de óleo e gás.`}
+                                <div className='mt-5 min-w-fit'>
+                                        <Imagem imagem={"/cbgdp2023/danilo.png"} descricao={"Prof. Dr. Danilo Curvelo (UFRN)"} />
+                                    </div>                                    <VerMais textoCurto={`Possui Doutorado em Engenharia Elétrica e de Computação pela Universidade Federal do Rio Grande do Norte (UFRN), na área de sistemas inteligentes aplicados à indústria de óleo e gás.`}
                                     textoLongo={`Atualmente é professor do Instituto Metrópole Digital (IMD) da UFRN, tendo experiência na área de desenvolvimento de sistemas, redes de computadores, indústria 4.0 e tecnologia blockchain.`} />
                                 
                                 </div>
